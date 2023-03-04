@@ -1,7 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import styles from '../styles/Home.module.css'
-import whatsapp from "../public/assets/whatsapp.svg"
 import duxgp from "../public/assets/duxgp.svg"
 import { NextPage } from 'next'
 
@@ -28,7 +27,8 @@ const Home: NextPage = () => {
 
         <Link href="https://bit.ly/3J9XjZC"  passHref >
             <div className={styles.btnBox}>
-            <Image src={whatsapp} className={styles.whats} width={18} height={18}  alt="Agende uma apresentação" />
+            {/* <Image src={whatsapp} className={styles.whats}  alt="Agende uma apresentação" /> */}
+            <img src="/assets/icon-whatsapp.svg" className={styles.whats} alt="Agende uma apresentação" />
             <span>Agende uma apresentação</span>
             </div>
         </Link>

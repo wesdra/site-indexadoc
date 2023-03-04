@@ -69,13 +69,11 @@
   border: 1px solid transparent;
   margin: 20px auto;
   background-image: linear-gradient(to right, #00CC83 0%, #059F68 51%, #00CC83 100%);
-  padding: 0;
   border-radius: 100px;
   border: none;
   background-color: #007aff;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
   text-decoration: none;
-  display: block;
   max-width: 250px;
 }
 
@@ -102,7 +100,8 @@
   margin: 0;
   float: left;
   margin-right: 0.5rem !important;
- 
+  width: 16px;
+  height: 16px;
   flex-shrink: 0 !important;
   fill: currentcolor;
 
