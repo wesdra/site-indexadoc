@@ -1,11 +1,13 @@
-import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 import whatsapp from "../public/assets/whatsapp.svg"
 import duxgp from "../public/assets/duxgp.svg"
+import { NextPage } from 'next'
 
-export default function Home() {
+
+const Home: NextPage = () => {
+
   return (
 
     //   <Head>
@@ -24,15 +26,15 @@ export default function Home() {
         </div>
 
 
-        <Link href="https://bit.ly/3J9XjZC" className={styles.btnAgendamento}>
+        <Link href="https://bit.ly/3J9XjZC"  passHref >
             <div className={styles.btnBox}>
-            <Image src={whatsapp} className={styles.whats}  alt="Agende uma apresentação" />
+            <Image src={whatsapp} className={styles.whats} width={18} height={18}  alt="Agende uma apresentação" />
             <span>Agende uma apresentação</span>
             </div>
         </Link>
 
         <div className="duxgp">
-          <Link href="https://duxgp.com.br/" passHref className="duxgplogo whats">
+          <Link href="https://duxgp.com.br/" passHref>
            <Image src={duxgp} alt="DuxGP" />
           </Link>
         </div>
@@ -40,3 +42,4 @@ export default function Home() {
       </main>
   )
 }
+ export default Home
