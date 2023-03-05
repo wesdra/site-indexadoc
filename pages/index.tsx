@@ -53,21 +53,24 @@ const Home: NextPage = () => {
         </div>
       </div>
 
-      <Link href="https://bit.ly/3J9XjZC" passHref >
+      {/* <Link href="https://bit.ly/3J9XjZC" passHref >
         <div className={styles.btnBox}>
-          {/* <Image src={whatsapp} className={styles.whats}  alt="Agende uma apresentação" /> */}
           <a>
           <img src="/assets/whatsapp.svg" className={styles.whats} alt="Agende uma apresentação" />
           <span>Agende uma apresentação</span></a>
         </div>
-      </Link>
+      </Link> */}
 
       <div className={styles.duxgp}>
+        {/* <div><img src="/assets/logo-idexadoc.svg" className={styles.seta} alt="Indexadoc.com.br" /></div> 
+        <div>*/}
         <Link href="https://duxgp.com.br/" passHref>
         <a>
         <img src="/assets/duxgp.svg" className={styles.duxgplogo} alt="Agende uma apresentação" />
         </a>
         </Link>
+        {/*</div>
+         <div><img src="/assets/logo-idexaged.svg" className={styles.seta} alt="Indexaget.com.br" /></div> */}
       </div>
 
       <footer className={styles.footerCopy}>

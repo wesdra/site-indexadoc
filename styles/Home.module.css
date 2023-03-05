@@ -200,7 +200,13 @@
 
 
 .duxgp {
-  margin-top: 50,
+  margin-top: 50;
+  display: flex;
+  justify-content: center;
+}
+.duxgp div img {
+  display: inline;
+  width: 150px;
 }
 
 .duxgplogo {

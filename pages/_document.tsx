@@ -1,4 +1,5 @@
 import { Html, Head, Main, NextScript } from 'next/document'
+import { GoogleAnalytics } from '../componentes/GoogleAnalytics'
 
 export default function Document() {
   return (
@@ -22,6 +23,7 @@ export default function Document() {
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700&family=Poppins:ital,wght@0,200;0,300;0,400;0,600;1,100&family=Roboto:wght@100;400;500;700&display=swap" rel="stylesheet" />
       </Head>
+      <GoogleAnalytics />
       <body>
         <Main />
         <NextScript />
