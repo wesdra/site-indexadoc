@@ -185,6 +185,10 @@
   .btnBox {
     max-width: 230px;
   }
+  .title {
+    font-size: 8vw;
+    margin-top: 50px;
+  }
 }
 
 .footerCopy {
