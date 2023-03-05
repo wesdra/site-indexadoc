@@ -46,19 +46,6 @@
 
 
 
-
-.duxgp {
-  margin-top: 30,
-}
-
-.duxgplogo {
-  display: block;
-  margin: 30px auto;
-  width: 100px;
-  max-width: 100px;
-}
-
-
 .btnBox {
   display: flex !important;
   align-items: center !important;
@@ -67,14 +54,21 @@
   padding: 0.8rem 0.8rem;
   margin-bottom: 1rem;
   border: 1px solid transparent;
-  margin: 20px auto;
+  margin: 10px auto 2px auto;
   background-image: linear-gradient(to right, #00CC83 0%, #059F68 51%, #00CC83 100%);
   border-radius: 100px;
   border: none;
   background-color: #007aff;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
   text-decoration: none;
-  max-width: 250px;
+  max-width: 450px;
+}
+
+
+.btnBox a {
+  width: 100%;
+  display: flex;
+  align-items: center;
 }
 
 .btnBox:hover {
@@ -89,26 +83,27 @@
   margin: 0 auto;
   color: #fff;
   letter-spacing: -0.5px;
-  font-size: 16px;
+  font-size: 1.6vw;
   display: block;
-
+  text-align: initial;
 }
 
 .whats {
   display: block;
   padding: 0;
   margin: 0;
-  float: left;
   margin-right: 0.5rem !important;
-  width: 16px;
-  height: 16px;
+  width: 32px;
+  height: 32px;
   flex-shrink: 0 !important;
   fill: currentcolor;
 }
+
+
 .seta {
   position: absolute;
   left: -100px;
-  top:-40px;
+  top: -40px;
   width: 80px;
 }
 
@@ -120,10 +115,94 @@
   color: #059F68;
   margin-bottom: 20px;
 }
+
 .textwhats {
-  font-size: 2.3vw;
+  font-size: 1.3vw;
   font-weight: normal;
   text-align: center;
-  letter-spacing: -0.2vw;
+  letter-spacing: -0.1vw;
   color: #88888A;
+}
+
+
+.imageWrap {
+  position: relative;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-box-align: start;
+}
+
+.fullSize {
+  width: 100%;
+  border-radius: 12px;
+
+}
+
+.section {
+  position: relative;
+  padding: 5vw;
+}
+
+@media screen and (max-width: 991px) {
+  .section {
+    padding: 45px 35px;
+  }
+  .btnBox {
+    max-width: 350px;
+  }
+  .btnBox span {
+    font-size: 18px;
+  }
+  .textwhats {
+    font-size: 12px;
+    font-weight: normal;
+    text-align: center;
+    letter-spacing: -1px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .section {
+    padding: 30px;
+  }
+  .btnBox {
+    max-width: 250px;
+  }
+  .btnBox span {
+    font-size: 14px;
+  }
+  .whats {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .section {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .btnBox {
+    max-width: 230px;
+  }
+}
+
+.footerCopy {
+  font-family: Inter;
+  font-weight: 400;
+  letter-spacing: -1px;
+  margin-bottom: 50px;
+}
+
+
+.duxgp {
+  margin-top: 50,
+}
+
+.duxgplogo {
+  display: block;
+  margin: 50px auto 30px auto;
+  width: 100px;
+  max-width: 100px;
+  
 }

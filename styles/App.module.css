@@ -31,9 +31,13 @@
 
 .logo {
   display: block;
-  width: 150px;
-  max-width: 150px;
-  margin: 20px auto 30px auto;
+  width: 250px;
+  max-width: 250px;
+  margin: 40px auto 30px auto;
+}
+.logo img {
+  display: block;
+  width: 100%;
 }
 
 .linkhome {
