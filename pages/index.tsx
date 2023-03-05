@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 import { NextPage } from 'next'
+import { GoogleAnalytics } from '../componentes/GoogleAnalytics'
 
 
 const Home: NextPage = () => {
@@ -15,6 +16,9 @@ const Home: NextPage = () => {
     //   </Head>
 
     <main className={styles.main}>
+
+      <GoogleAnalytics />
+
       <div className={styles.textwrap}>
         <h1 className={styles.title}>
           Transforma <span className={styles.textspan1}>cartórios&nbsp;comuns</span><br />
