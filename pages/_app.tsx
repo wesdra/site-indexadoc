@@ -3,26 +3,13 @@ import '../styles/globals.css'
 import styles from '../styles/App.module.css'
 
 import { AppProps } from 'next/app'
-import { useRouter } from 'next/router'
+import GoogleAnalytics from '../componentes/GoogleAnalytics'
 
 function MyApp({ Component, pageProps }: AppProps) {
 
-
-  const router = useRouter()
-
-  // useEffect(() => {
-  //   const handleRouteChange = (url:string) => {
-  //     gtag.pageview(url)
-  //   }
-  //   router.events.on('routeChangeComplete', handleRouteChange)
-  //   return () => {
-  //     router.events.off('routeChangeComplete', handleRouteChange)
-  //   }
-  // }, [router.events])
-
   return (
     <>
-  
+      <GoogleAnalytics />
       <div className={styles.container}>
         <div className={styles.bg}></div>
         <div className={styles.header}>
