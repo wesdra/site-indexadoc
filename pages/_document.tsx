@@ -3,7 +3,6 @@ import { Html, Head, Main, NextScript } from 'next/document'
 export default function Document() {
   return (
     <Html>
-    
       <Head>
         <link rel="apple-touch-icon" sizes="57x57" href="/icons/apple-icon-57x57.png" />
         <link rel="apple-touch-icon" sizes="60x60" href="/icons/apple-icon-60x60.png" />
@@ -26,6 +25,8 @@ export default function Document() {
       <body>
         <Main />
         <NextScript />
+        {/* Global Site Tag (gtag.js) - Google Analytics */}
+        {/* Necessary to prevent error: window.gtag is not defined for Next.js-hydration */}
         <script
           dangerouslySetInnerHTML={{
             __html: `
