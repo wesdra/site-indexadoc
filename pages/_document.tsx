@@ -1,9 +1,10 @@
 import { Html, Head, Main, NextScript } from 'next/document'
+import Analytics from '../components/analitycs'
 import { GA_TRACKING_ID } from '../lib/gtag'
 
 export default function Document() {
   return (
-    <Html>
+    <Html lang="pt-BR">
       <Head>
         <link rel="apple-touch-icon" sizes="57x57" href="/icons/apple-icon-57x57.png" />
         <link rel="apple-touch-icon" sizes="60x60" href="/icons/apple-icon-60x60.png" />
@@ -22,27 +23,11 @@ export default function Document() {
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700&family=Poppins:ital,wght@0,200;0,300;0,400;0,600;1,100&family=Roboto:wght@100;400;500;700&display=swap" rel="stylesheet" />
-        {/* Global Site Tag (gtag.js) - Google Analytics */}
-        <script
-            async
-            src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
-          />
-          <script
-            dangerouslySetInnerHTML={{
-              __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', '${GA_TRACKING_ID}', {
-                page_path: window.location.pathname,
-              });
-          `
-            }}
-          />
       </Head>
       <body>
         <Main />
         <NextScript />
+        <Analytics />
       </body>
     </Html>
   )
