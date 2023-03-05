@@ -104,7 +104,12 @@
   height: 16px;
   flex-shrink: 0 !important;
   fill: currentcolor;
-
+}
+.seta {
+  position: absolute;
+  left: -100px;
+  top:-40px;
+  width: 80px;
 }
 
 .textdesc {
@@ -116,9 +121,9 @@
   margin-bottom: 20px;
 }
 .textwhats {
-  font-size: 2.9vw;
+  font-size: 2.3vw;
   font-weight: normal;
   text-align: center;
-  letter-spacing: -0.1vw;
+  letter-spacing: -0.2vw;
   color: #88888A;
 }

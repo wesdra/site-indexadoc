@@ -22,13 +22,14 @@ const Home: NextPage = () => {
             em <span className={styles.textspan2}>cartório digitais.</span>
           </h1>
           <p className={styles.textdesc}>Eficiencia, segurança e rapides.</p>
-          <p className={styles.textwhats}>Para agendar uma apresentação <br />entre em contato pelo WhatsApp.</p>
+          <p className={styles.textwhats}>Para agendar uma apresentação entre em contato pelo WhatsApp.</p>
         </div>
         
 
         <Link href="https://bit.ly/3J9XjZC"  passHref >
             <div className={styles.btnBox}>
             {/* <Image src={whatsapp} className={styles.whats}  alt="Agende uma apresentação" /> */}
+            <img src="/assets/seta.svg" className={styles.seta} alt="Agende uma apresentação" />
             <img src="/assets/icon-whatsapp.svg" className={styles.whats} alt="Agende uma apresentação" />
             <span>Agende uma apresentação</span>
             </div>
