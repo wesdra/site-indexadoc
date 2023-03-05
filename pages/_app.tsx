@@ -1,13 +1,20 @@
-import { useEffect } from 'react';
-import { AppProps } from 'next/app'
-import * as gtag from "../lib/gtag"
-import { useRouter } from 'next/router';
-
 import '../styles/globals.css'
+import { AppProps } from 'next/app'
 
+// function MyApp({ Component, pageProps }: AppProps) {
+//   return (
+//     <>
+//         <Component {...pageProps} />
+//     </>
+//   )
+// }
 
-function MyApp({ Component, pageProps }: AppProps) {
+// export default MyApp
+import * as gtag from "../lib/gtag";
+import { useRouter } from 'next/router';
+import { useEffect } from 'react';
 
+const App = ({ Component, pageProps }: AppProps) => {
   const router = useRouter();
 
   useEffect(() => {
@@ -20,11 +27,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     };
   }, [router.events]);
 
-  return (
-    <>
-      <Component {...pageProps} />
-    </>
-  )
-}
+  return <Component {...pageProps} />;
+};
 
-export default MyApp
+export default App;
