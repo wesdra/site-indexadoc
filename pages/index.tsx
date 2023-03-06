@@ -2,12 +2,35 @@ import Image from 'next/image'
 import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 import { NextPage } from 'next'
+import useLocalStorage from '../services/useLocalStorage'
+import { useEffect, useState } from 'react'
+
+
+type useCookes = {
+  use: string
+}
 
 
 const Home: NextPage = () => {
 
+  const [useStorageCookes, setUseStorageCookies] = useLocalStorage('duxgp-id', {} as useCookes)
+  const [useCookes, setUseCookes] = useState<useCookes>(useStorageCookes)
+
+  useEffect(() => {
+    if (useStorageCookes && !useCookes) {
+      setUseCookes(useStorageCookes)
+    }
+  }, [useCookes, useStorageCookes]);
+
+  function handleUseCoories() {
+    setUseStorageCookies({ use: "ok"})
+    setUseCookes({ use: "ok"})
+  }
+
+  console.log(useCookes, useStorageCookes)
+
   return (
-    <div className={styles.container } >
+    <div className={styles.container} >
       <div className={styles.bg}></div>
       <div className={styles.header}>
         <a className={styles.logo} href="https://bit.ly/3J9XjZC">
@@ -16,7 +39,7 @@ const Home: NextPage = () => {
       </div>
       <main className={styles.main}>
 
-    {/* //   <Head>
+        {/* //   <Head>
     //     <title>Create Next App</title>
     //     <meta name="description" content="Indexa Doc - Aplicativo para cartórios" />
     //     <link rel="icon" href="/favicon.ico" />
@@ -79,11 +102,58 @@ const Home: NextPage = () => {
           </Link>
           {/*</div>
          <div><img src="/assets/logo-idexaged.svg" className={styles.seta} alt="Indexaget.com.br" /></div> */}
+          <p>
+            DUXGP - SOLUÇÕES EM TI LTDA<br />
+            CNPJ: 30.885.472/0001-30 Londrina - PR
+          </p>
+          <p>Rua Senador Souza Naves, 771 1º Andar Sala 103<br />
+            Londrina, Paraná, 86010-160, BR
+          </p>
+
+          <p>Email: vedove@duxgp.com.br Telefone:+55 43 99125 5063</p>
+
         </div>
 
         <footer className={styles.footerCopy}>
           2023, indexadoc.com.br todos os direitos reservados
         </footer>
+
+        {useCookes?.use ?
+          (
+            <>
+              
+            </>
+          ):(
+            <>
+            <div className={styles.useCookesFixe}>
+                <div className={styles.useCookes}>
+
+                  <div className={styles.useCookesDivIcon}>
+                    <img src="/assets/cookies.svg" className={styles.useCookesIcon} alt="Política de privacidade" />
+                  </div>
+                  <div className={styles.useCookesTitle}>Esse site usa cookies</div>
+                </div>
+                <div className={styles.useCookes}>
+                  <div className={styles.useCookesDivText}>
+                    <p className={styles.useCookesText}><br />
+                      {/* Para fornecer as melhores experiências, usamos tecnologias como cookies para armazenar e/ou acessar informações do dispositivo. O consentimento para essas tecnologias nos permitirá processar dados como comportamento de navegação ou IDs exclusivos neste site. */}
+                      Nós armazenamos dados temporariamente para melhorar a sua experiência de navegação e recomendar conteúdo de seu interesse. Ao utilizar nossos serviços, você concorda com tal monitoramento.
+                    </p>
+                  </div>
+                </div>
+                <div className={styles.useCookesButton}>
+                  <div>
+                  <Link href="https://duxgp.com.br/privacy-policy/" passHref>
+                   <a  target="_blank" rel="noopener noreferrer">Política de privacidade</a>
+                   </Link>
+                  </div>
+                  <div> <button onClick={()=>{handleUseCoories()}} className="btn-hover color-5">Aceito</button></div>
+                </div>
+              </div>
+            </>
+          )
+        }
+
 
       </main>
     </div >

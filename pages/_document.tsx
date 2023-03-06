@@ -1,6 +1,5 @@
 import { Html, Head, Main, NextScript } from 'next/document'
 import Analytics from '../components/analitycs'
-import { GA_TRACKING_ID } from '../lib/gtag'
 
 export default function Document() {
   return (

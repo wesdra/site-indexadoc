@@ -4,6 +4,7 @@
   align-items: flex-start;
   justify-content: center;
   min-height: 100vh;
+  position: relative;
 }
 
 .bg {
@@ -194,6 +195,111 @@
   padding: 5vw;
 }
 
+
+
+.footerCopy {
+  font-family: Inter;
+  font-weight: 400;
+  letter-spacing: -1px;
+  margin-bottom: 50px;
+  margin-top: 30px;
+  font-size: 12px;
+}
+
+
+.duxgp {
+  margin-top: 50;
+}
+
+.duxgp p{
+  margin-top: 50;
+  font-family: Inter;
+  font-weight: 400;
+  letter-spacing: -1px;
+  padding: 0 20px;
+  font-size: 12px;
+}
+
+.duxgp div img {
+  display: inline;
+  width: 150px;
+}
+
+.duxgplogo {
+  display: block;
+  margin: 50px auto 30px auto;
+  width: 100px;
+  max-width: 100px;
+  
+}
+.useCookesFixe {
+  padding: 20px;
+  background-color: #C6F6D5;
+  max-width: 800px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: 10px 10px 0 0;
+  margin: 0 auto;
+  box-shadow: 4px 4px 6px 4px rgb(0 0 0 / 10%), 4px 2px 4px 1px rgb(0 0 0 / 6%);
+}
+.useCookesFixe a {
+  font-size: 12px;
+
+}
+
+.useCookes{
+
+  padding: 0;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.useCookes div {
+  margin: 0;
+  padding: 0;
+ 
+}
+
+.useCookesDivIcon {
+  width: 20px!important;
+  display: inline-block;
+}
+.useCookesDivText{
+  padding: 0 20px;
+  display: block;
+}
+
+.useCookesIcon{
+  width: 20px!important;
+}
+
+.useCookesText{
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 12px;
+  text-align: start;
+  padding: 0;
+}
+
+.useCookesTitle {
+ font-weight: bold;
+ margin-top: 20px;
+}
+
+.useCookesButton{
+
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+
 @media screen and (max-width: 991px) {
   .section {
     padding: 45px 35px;
@@ -238,32 +344,10 @@
   }
   .title {
     font-size: 8vw;
-    margin-top: 50px;
+    margin-top: 5
+    0px;
   }
-}
-
-.footerCopy {
-  font-family: Inter;
-  font-weight: 400;
-  letter-spacing: -1px;
-  margin-bottom: 50px;
-}
-
-
-.duxgp {
-  margin-top: 50;
-  display: flex;
-  justify-content: center;
-}
-.duxgp div img {
-  display: inline;
-  width: 150px;
-}
-
-.duxgplogo {
-  display: block;
-  margin: 50px auto 30px auto;
-  width: 100px;
-  max-width: 100px;
-  
+  .useCookesText{
+    font-size: 10px;
+  }
 }
