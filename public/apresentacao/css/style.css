@@ -1,0 +1,34 @@
+.carousel-animation .carousel-item {
+    transform: none;
+}
+.carousel-animation .carousel-item-left {
+    //animation-name: bounceInRight;
+    //animation-duration: 0.65s;
+    animation: imageAnimation 30s linear infinite 0s; 
+}
+.carousel-animation .carousel-item-left.active {
+    /* transform: translate(0, 0);
+    animation-name: bounceOutLeft; */
+    animation: imageAnimation 30s linear infinite 0s; 
+}
+.carousel-animation .carousel-item-right {
+    //animation-name: bounceInLeft;
+    //animation-duration: 0.65s;
+    animation: imageAnimation 30s linear infinite 0s; 
+}
+.carousel-animation .carousel-item-right.active {
+    /* transform: translate(0, 0);
+    animation-name: bounceOutRight; */
+    animation: imageAnimation 30s linear infinite 0s; 
+}
+
+@keyframes imageAnimation { 
+    0% { opacity: 0; animation-timing-function: ease-in; }
+    8% { opacity: 1; animation-timing-function: ease-out; }
+    17% { opacity: 1 }
+    25% { opacity: 0 }
+    100% { opacity: 0 }
+}
+
+
+nano /etc/crontab
