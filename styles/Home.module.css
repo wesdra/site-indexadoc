@@ -90,7 +90,7 @@
   text-align: center;
   margin-top: 0px;
   font-weight: 700;
-  letter-spacing: -0.3vw;
+  letter-spacing: -0.2vw;
 }
 
 .topTitle {
@@ -444,19 +444,19 @@
   margin-top: 0.5rem !important;
   line-height: 1.5;
   display: block;
-  letter-spacing: -0.1vw;
+  letter-spacing: -0.03vw;
 }
 
 .testimonialText {
   color: rgb(148 163 184 / 1) !important;
   text-align: center !important;
-  letter-spacing: -0.09vw;
+  letter-spacing: -0.03vw;
 
 }
 .testimonialTextOffice {
   color: rgb(148 163 184 / 1) !important;
   text-align: center !important;
-  letter-spacing: -0.09vw;
+  letter-spacing: -0.03vw;
   font-size: 12px;
 }
 
