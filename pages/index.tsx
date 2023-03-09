@@ -50,7 +50,7 @@ const Home: NextPage = () => {
           <meta property="og:url" content="https://www.indexadoc.com.br" />
           <meta property="og:site_name" content="indexa.doc | Gestão eficiente, segura e rápida." />
           <meta property="article:modified_time" content="2023-03-08T13:28:49+00:00" />
-          {/* <meta property="og:image" content="https://cdn.arquivar.com.br/wp-content/uploads/2021/02/woman-arqged-1.png" /> */}
+          <meta property="og:image" content="https://www.indexadoc.com.br/telas/tela800.jpg" />
         </Head>
 
 
