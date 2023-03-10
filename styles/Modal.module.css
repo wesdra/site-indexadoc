@@ -105,3 +105,7 @@
   transform: translate(-50%,-50%);
 
 }
+.btnControlModal:hover {
+  border: solid 2px blueviolet;
+  border-radius: 100%;
+}
