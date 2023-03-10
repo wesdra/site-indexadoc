@@ -5,6 +5,8 @@ import { NextPage } from 'next'
 import useLocalStorage from '../services/useLocalStorage'
 import { useEffect, useState } from 'react'
 import Head from 'next/head'
+import Video from '../components/video'
+import Modal from '../components/modal'
 
 
 type useCookes = {
@@ -17,6 +19,9 @@ const Home: NextPage = () => {
   const [useStorageCookes, setUseStorageCookies] = useLocalStorage('duxgp-id', {} as useCookes)
   const [useCookes, setUseCookes] = useState<useCookes>(useStorageCookes)
 
+
+  
+
   useEffect(() => {
     if (useStorageCookes && !useCookes) {
       setUseCookes(useStorageCookes)
@@ -28,7 +33,6 @@ const Home: NextPage = () => {
     setUseCookes({ use: "ok" })
   }
 
-  console.log(useCookes, useStorageCookes)
 
   return (
     <div className={styles.container} >
@@ -76,6 +80,7 @@ const Home: NextPage = () => {
 
 
         <div className={styles.section}>
+        <Modal />
           <div className={styles.imageWrap}>
             <img src="/telas/tela5625.jpg"
               sizes="(max-width: 479px) 100vw, (max-width: 767px) 92vw, (max-width: 991px) 93vw, 90vw"
@@ -91,6 +96,15 @@ const Home: NextPage = () => {
               className={styles.fullSize} />
           </div>
         </div>
+
+        {/* <div className={styles.fullmodal}>
+
+        <Video />
+        </div> */}
+
+      
+    
+
 
         {/* <Link href="https://bit.ly/3J9XjZC" passHref >
         <div className={styles.btnBox}>
@@ -245,7 +259,7 @@ const Home: NextPage = () => {
                         <a target="_blank" rel="noopener noreferrer">Política de privacidade</a>
                       </Link>
                     </div>
-                    <div> <button onClick={() => { handleUseCoories() }} className="btn-hover color-5">Aceito</button></div>
+                    <div> <button onClick={() => { handleUseCoories() }} className="btn-hover color-5">OK</button></div>
                   </div>
                 </div>
               </>

@@ -1,0 +1,107 @@
+/* .modal {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease-in-out;
+  pointer-events: none;
+	z-index: 20;
+
+} */
+.overlay{
+
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: block;
+  transition: all 0.3s ease-in-out;
+  pointer-events: none;
+  z-index: 1061;
+  overflow-x: hidden;
+  overflow-y: auto;
+
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1060;
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    outline: 0;
+    display: block;
+    background: rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+}
+
+/* .modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width:100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+} */
+
+.modalMain {
+   position:fixed;
+   width:auto;
+   height: auto;
+   top:50%;
+   left:50%;
+  z-index: 1062;
+  transform: translate(-50%,-50%);
+}
+
+.display-block {
+  display: block;
+}
+
+.display-none {
+  display: none;
+}
+
+.closeBtn {
+  position: fixed;
+  right: 0.27778em;
+  top: 1em;
+  bottom: 0;
+  z-index: 1063;
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  border: none;
+}
+.closeBtn svg {
+  pointer-events: none;
+  stroke: #fff;
+  stroke-width: 1;
+  stroke-linecap: square;
+  stroke-linejoin: miter;
+  fill: none;
+  color: #fff;
+}
+.btnControlModal {
+  background: transparent;
+  border: none;
+  position:absolute;
+  width:auto;
+  height: auto;
+  top:50%;
+  left:50%;
+  z-index: 1000;
+  transform: translate(-50%,-50%);
+
+}
