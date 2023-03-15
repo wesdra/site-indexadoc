@@ -108,4 +108,5 @@
 .btnControlModal:hover {
   border: solid 2px blueviolet;
   border-radius: 100%;
+  background: #fff;
 }
