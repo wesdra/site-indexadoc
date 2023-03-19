@@ -51,3 +51,6 @@
 .carousel-indicators {
     margin-bottom: 0px!important;
 }
+.carousel-indicators .active {
+     opacity: 1!important;
+}
