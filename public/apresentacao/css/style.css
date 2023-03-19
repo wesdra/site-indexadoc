@@ -2,8 +2,8 @@
     transform: none;
 }
 .carousel-animation .carousel-item-left {
-    //animation-name: bounceInRight;
-    //animation-duration: 0.65s;
+    /* //animation-name: bounceInRight;
+    //animation-duration: 0.65s; */
     animation: imageAnimation 30s linear infinite 0s; 
 }
 .carousel-animation .carousel-item-left.active {
@@ -12,8 +12,8 @@
     animation: imageAnimation 30s linear infinite 0s; 
 }
 .carousel-animation .carousel-item-right {
-    //animation-name: bounceInLeft;
-    //animation-duration: 0.65s;
+    /* animation-name: bounceInLeft;
+    animation-duration: 0.65s; */
     animation: imageAnimation 30s linear infinite 0s; 
 }
 .carousel-animation .carousel-item-right.active {
@@ -31,4 +31,23 @@
 }
 
 
-nano /etc/crontab
+.carousel-dark .carousel-indicators [data-bs-target] {
+    background-color: #000;
+}
+
+.carousel-indicators .active {
+    opacity: 1;
+}
+.carousel-indicators [data-bs-target] {
+    height: auto!important; 
+    text-indent: 0px!important; 
+    color: #fff;
+    font-size: 10px;
+    border-radius: 2px;
+    opacity: .2!important; 
+    border-bottom: 2px solid transparent!important; 
+}
+
+.carousel-indicators {
+    margin-bottom: 0px!important;
+}
