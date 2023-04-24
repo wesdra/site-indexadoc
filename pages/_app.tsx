@@ -1,12 +1,19 @@
+import React from 'react'
 import '../styles/globals.css'
 import { AppProps } from 'next/app'
 
-function MyApp({ Component, pageProps }: AppProps) {
+// function MyApp({ Component, pageProps }: AppProps) {
+//   return (
+//     <React.Fragment>
+//       <Component {...pageProps} />
+//     </React.Fragment>
+//   )
+// }
+const MyApp = ({ Component, pageProps }: AppProps) => {
   return (
-    <>
-        <Component {...pageProps} />
-    </>
-  )
-}
-
+    <React.Fragment>
+      <Component {...pageProps} />
+    </React.Fragment>
+  );
+};
 export default MyApp
