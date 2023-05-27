@@ -9,6 +9,7 @@ import Video from '../components/video'
 import Modal from '../components/modal'
 
 
+
 type useCookes = {
   use: string
 }
