@@ -78,6 +78,10 @@ const Home: NextPage = () => {
             <br />e <span className={styles.textspan2}>Revolucione</span>sua
             Gestão Documental!
           </h1>
+          <p className={styles.textdescpreto}>
+            Sua jornada para uma gestão documental transformada começa aqui.
+            <br /> Não deixe essa oportunidade passar!
+          </p>
           <p className={styles.textdesc}>
             Preencha o formulário para confirmação de participação.
           </p>
@@ -117,7 +121,7 @@ const Home: NextPage = () => {
                     Venha Conhecer o Futuro da Gestão Documental:{" "}
                   </strong>
                   Unindo eficiência, segurança e praticidade, nossa solução está
-                  pronta para elevar seu cartório a um novo patamar. Este é o
+                  pronta para elevar seu cartório a um novo nível. Este é o
                   momento de moldar um futuro mais ágil e inovador.
                 </p>
 
@@ -233,7 +237,7 @@ const Home: NextPage = () => {
                       type="text"
                       className="form-control inputField2"
                       id="inputAddress2"
-                      placeholder="Nome do Oficial titular ou Substituto Legal:"
+                      placeholder="Nome do Oficial Titular ou Substituto Legal:"
                     />
                   </div>
                   <div className="col-12">
@@ -284,7 +288,7 @@ const Home: NextPage = () => {
         </div>
 
         <div className={styles.section}>
-          <div className={styles.sectionBase}>
+          <div className={`${styles.sectionBase} ${styles.sectionBaseFnd}`}>
             <div className={styles.sectionTop}>
               <p className={styles.topTitle}>Conheça nossos parceiros</p>
               <h2 className={`${styles.h2Title} ${styles.centerText}`}>
@@ -373,100 +377,173 @@ const Home: NextPage = () => {
                 Parceiros
               </h2> */}
 
-
         <div className={styles.section}>
           <div className="text-wrap _6vw-margin">
-          <p className={styles.topTitle}>Descubra a Revolução</p>
+            <p className={styles.topTitle}>Descubra a Revolução</p>
             <h2 className={`${styles.h2Title} ${styles.centerText}`}>
-            Venha Conhecer o Futuro 
+              Venha Conhecer o Futuro
               <br />
               da Gestão Documental
             </h2>
             <br />
             <p className={`${styles.largeParagraph} ${styles._4vwMargin}`}>
-            Imagine nunca mais perder tempo procurando arquivos. Com nossa solução de gerenciamento de arquivos digitais, seus documentos serão organizados e acessíveis como nunca antes. Aqui está o que nossa tecnologia de ponta oferece:
-                </p>
+              Imagine nunca mais perder tempo procurando arquivos. Com nossa
+              solução de gerenciamento de arquivos digitais, seus documentos
+              serão organizados e acessíveis como nunca antes. Aqui está o que
+              nossa tecnologia de ponta oferece:
+            </p>
           </div>
           <div className={styles._4ColumnsGrid}>
-            <div  className={styles.wNodeCol} id="wNodeCol">
+            <div className={styles.wNodeCol} id="wNodeCol">
               <div className="_1vw-margin">
-
-<svg xmlns="http://www.w3.org/2000/svg" className={styles.mediumIcon} width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
-   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-   <path d="M19 4v16h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12z"></path>
-   <path d="M19 16h-12a2 2 0 0 0 -2 2"></path>
-   <path d="M9 8h6"></path>
-</svg>
-
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className={styles.mediumIcon}
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  strokeWidth="2"
+                  stroke="currentColor"
+                  fill="none"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                  <path d="M19 4v16h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12z"></path>
+                  <path d="M19 16h-12a2 2 0 0 0 -2 2"></path>
+                  <path d="M9 8h6"></path>
+                </svg>
 
                 <h5 className={styles.h5Title}>Organização Impecável</h5>
               </div>
               <p className={styles.paragraph}>
-              Cansado de procurar? Com nossos documentos digitalizados, você pode localizar qualquer arquivo instantaneamente, todos meticulosamente organizados.
+                Cansado de procurar? Com nossos documentos digitalizados, você
+                pode localizar qualquer arquivo instantaneamente, todos
+                meticulosamente organizados.
               </p>
             </div>
-            
 
-
-
-
-
-
-
-
-
-            <div  className={styles.wNodeCol} id="wNodeCol">
+            <div className={styles.wNodeCol} id="wNodeCol">
               <div className="_1vw-margin">
-              <svg xmlns="http://www.w3.org/2000/svg" className={styles.mediumIcon} width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
-   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-   <path d="M5 13a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v6a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-6z"></path>
-   <path d="M11 16a1 1 0 1 0 2 0a1 1 0 0 0 -2 0"></path>
-   <path d="M8 11v-4a4 4 0 1 1 8 0v4"></path>
-</svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className={styles.mediumIcon}
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  strokeWidth="2"
+                  stroke="currentColor"
+                  fill="none"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                  <path d="M5 13a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v6a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-6z"></path>
+                  <path d="M11 16a1 1 0 1 0 2 0a1 1 0 0 0 -2 0"></path>
+                  <path d="M8 11v-4a4 4 0 1 1 8 0v4"></path>
+                </svg>
                 <h5 className={styles.h5Title}>Segurança Total</h5>
               </div>
               <p className={styles.paragraph}>
-              Suas informações são valiosas e merecem proteção. Nossa solução garante a máxima segurança para seus dados, proporcionando tranquilidade.
+                Suas informações são valiosas e merecem proteção. Nossa solução
+                garante a máxima segurança para seus dados, proporcionando
+                tranquilidade.
               </p>
             </div>
-            <div  className={styles.wNodeCol} id="wNodeCol">
+            <div className={styles.wNodeCol} id="wNodeCol">
               <div className="_1vw-margin">
-              <svg xmlns="http://www.w3.org/2000/svg" className={styles.mediumIcon} width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
-   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-   <path d="M7 7h10a2 2 0 0 1 2 2v1l1 1v3l-1 1v3a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-3l-1 -1v-3l1 -1v-1a2 2 0 0 1 2 -2z"></path>
-   <path d="M10 16h4"></path>
-   <circle cx="8.5" cy="11.5" r=".5" fill="currentColor"></circle>
-   <circle cx="15.5" cy="11.5" r=".5" fill="currentColor"></circle>
-   <path d="M9 7l-1 -4"></path>
-   <path d="M15 7l1 -4"></path>
-</svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className={styles.mediumIcon}
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  strokeWidth="2"
+                  stroke="currentColor"
+                  fill="none"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                  <path d="M7 7h10a2 2 0 0 1 2 2v1l1 1v3l-1 1v3a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-3l-1 -1v-3l1 -1v-1a2 2 0 0 1 2 -2z"></path>
+                  <path d="M10 16h4"></path>
+                  <circle
+                    cx="8.5"
+                    cy="11.5"
+                    r=".5"
+                    fill="currentColor"
+                  ></circle>
+                  <circle
+                    cx="15.5"
+                    cy="11.5"
+                    r=".5"
+                    fill="currentColor"
+                  ></circle>
+                  <path d="M9 7l-1 -4"></path>
+                  <path d="M15 7l1 -4"></path>
+                </svg>
                 <h5 className={styles.h5Title}>Eficiência Avançada</h5>
               </div>
               <p className={styles.paragraph}>
-              Diga adeus às tarefas manuais que consomem seu tempo. Automatizamos processos para você focar no que realmente importa.
+                Diga adeus às tarefas manuais que consomem seu tempo.
+                Automatizamos processos para você focar no que realmente
+                importa.
               </p>
             </div>
 
-
-
-
-
-            
-
-            <div  className={styles.wNodeCol} id="wNodeCol">
+            <div className={styles.wNodeCol} id="wNodeCol">
               <div className="_1vw-margin">
-              <svg xmlns="http://www.w3.org/2000/svg" className={styles.mediumIcon} width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
-   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-   <path d="M16.555 3.843l3.602 3.602a2.877 2.877 0 0 1 0 4.069l-2.643 2.643a2.877 2.877 0 0 1 -4.069 0l-.301 -.301l-6.558 6.558a2 2 0 0 1 -1.239 .578l-.175 .008h-1.172a1 1 0 0 1 -.993 -.883l-.007 -.117v-1.172a2 2 0 0 1 .467 -1.284l.119 -.13l.414 -.414h2v-2h2v-2l2.144 -2.144l-.301 -.301a2.877 2.877 0 0 1 0 -4.069l2.643 -2.643a2.877 2.877 0 0 1 4.069 0z"></path>
-   <path d="M15 9h.01"></path>
-</svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className={styles.mediumIcon}
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  strokeWidth="2"
+                  stroke="currentColor"
+                  fill="none"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                  <path d="M16.555 3.843l3.602 3.602a2.877 2.877 0 0 1 0 4.069l-2.643 2.643a2.877 2.877 0 0 1 -4.069 0l-.301 -.301l-6.558 6.558a2 2 0 0 1 -1.239 .578l-.175 .008h-1.172a1 1 0 0 1 -.993 -.883l-.007 -.117v-1.172a2 2 0 0 1 .467 -1.284l.119 -.13l.414 -.414h2v-2h2v-2l2.144 -2.144l-.301 -.301a2.877 2.877 0 0 1 0 -4.069l2.643 -2.643a2.877 2.877 0 0 1 4.069 0z"></path>
+                  <path d="M15 9h.01"></path>
+                </svg>
                 <h5 className={styles.h5Title}>Compliance</h5>
               </div>
               <p className={styles.paragraph}>
-              Privacidade e proteção estão garantidas. Mantemos sua conformidade com LGPD, Provimentos 50, 74 e Código de Normas.
+                Privacidade e proteção estão garantidas. Mantemos sua
+                conformidade com LGPD, Provimentos 50, 74 e Código de Normas.
               </p>
             </div>
-            
+
+
+            <div className={styles.wNodeCol} id="wNodeCol">
+              <div className="_1vw-margin">
+                <img src="/eventos/img/indexa1.svg" alt="Indexa" />
+              </div>
+            </div>
+            <div className={styles.wNodeCol} id="wNodeCol">
+              <div className="_1vw-margin">
+                <img src="/eventos/img/indexa2.svg" alt="Indexa" />
+              </div>
+            </div>
+
+            <div className={styles.wNodeCol} id="wNodeCol">
+              <div className="_1vw-margin">
+                <img src="/eventos/img/indexa3.svg" alt="Indexa" />
+              </div>
+            </div>
+
+            <div className={styles.wNodeCol} id="wNodeCol">
+              <div className="_1vw-margin">
+                <img src="/eventos/img/indexa4.svg" alt="Indexa" />
+              </div>
+            </div>
+
+
+
+
           </div>
         </div>
 

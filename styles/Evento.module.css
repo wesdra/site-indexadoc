@@ -226,11 +226,19 @@
 }
 
 .textdesc {
-  font-size: 3.1vw;
+  font-size: 2.1vw;
   font-weight: normal;
   text-align: center;
   letter-spacing: -0.2vw;
   color: #059F68;
+  margin-bottom: 20px;
+}
+.textdescpreto {
+  font-size: 2.1vw;
+  font-weight: normal;
+  text-align: center;
+  letter-spacing: -0.2vw;
+  color: #333333;
   margin-bottom: 20px;
 }
 
@@ -282,7 +290,16 @@
   background-color: #F0F4F7;
   padding: 30px;
 }
+.sectionBaseFnd {
+  background-image: url("/eventos/img/eventofnd.jpg");
+  background-repeat:no-repeat;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+  background-position:center;
 
+}
 
 .footerCopy {
   font-family: Inter;
