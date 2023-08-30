@@ -1,3 +1,8 @@
+.bgevento {  
+  background-image: url('/evento/img/event.jpg') no-repeat center center fixed!important;  
+  background-size: 'cover';
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -15,7 +20,7 @@
   box-sizing: border-box
 }
 
-.bgevento{  background-image: url('/evento/img/event.jpg');}
+
 
 .header {
   display: flex;
