@@ -35,14 +35,15 @@ type CreteformData = z.infer<typeof createUserFromSchema>;
 
 export default function Evento({ email }: IEmail) {
   const [myemail, setMyemail] = useState(email);
-
+  const [output, setOutput] = useState("");
+  
   const [useStorageCookes, setUseStorageCookies] = useLocalStorage(
     "duxgp-id",
     {} as useCookes
   );
   const [useCookes, setUseCookes] = useState<useCookes>(useStorageCookes);
 
-  const [output, setOutput] = useState("");
+ 
 
   const {
     register,

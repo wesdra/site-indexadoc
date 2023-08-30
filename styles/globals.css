@@ -406,8 +406,36 @@ label {
 }
 
 
-
-
+.Parabens{
+  font-size: 6.0vw;
+  font-weight: 800;
+  outline: none;
+  text-transform: uppercase;
+  background: linear-gradient(135deg, #5335cf 0%, #41B97F 25%, #5335cf 50%, #41B97F 75%, #5335cf 100%);
+  background-size: 400%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  animation: animate 10s linear infinite;
+  text-align: center;
+}
+.ParabensParagrafo{
+  font-size: 4.0vw;
+  font-weight: 800;
+  line-height: 1.0;
+  letter-spacing: -0.3vw;
+  outline: none;
+  background: linear-gradient(135deg, #5335cf 0%, #41B97F 25%, #5335cf 50%, #333333 75%, #5335cf 100%);
+  background-size: 400%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  animation: animate 10s linear infinite;
+  text-align: center;
+}
+@keyframes animate {
+  to{
+    background-position: 400%;
+  }
+}
 
 
 

@@ -3,21 +3,61 @@ import styles from "../../styles/Evento.module.css";
 import { NextPage } from "next";
 import useLocalStorage from "../../services/useLocalStorage";
 import { useEffect, useState } from "react";
-
+import { z } from "zod";
+import { zodResolver } from "@hookform/resolvers/zod";
 import { useKeenSlider } from "keen-slider/react";
 import "keen-slider/keen-slider.min.css";
+import { api, apibase } from "../../services/api";
+import { useForm } from "react-hook-form";
 
 const animation = { duration: 8000, easing: (t: number) => t };
 
 type useCookes = {
   use: string;
 };
+
+const createUserFromSchema = z.object({
+  Nome: z.string().nonempty("O Nome é obrigatório"),
+  Oficial: z.string().nonempty("O Nome do Oficial ou Substituto é obrigatório"),
+  Celular: z.string().nonempty("O Celular é obrigatório"),
+  Cidade: z.string().nonempty("A Cidade é obrigatório"),
+  Email: z.string().email("Formato de e-mail inválido").toLowerCase(),
+});
+
+type CreteformData = z.infer<typeof createUserFromSchema>;
+
 const Home: NextPage = () => {
   const [useStorageCookes, setUseStorageCookies] = useLocalStorage(
     "duxgp-id",
     {} as useCookes
   );
   const [useCookes, setUseCookes] = useState<useCookes>(useStorageCookes);
+
+  const [myemail, setMyemail] = useState("");
+  const [output, setOutput] = useState("");
+
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm<CreteformData>({
+    resolver: zodResolver(createUserFromSchema),
+  });
+
+  async function createUser(data: CreteformData) {
+    console.log(JSON.stringify(data, null, 2));
+
+    try {
+      const produtos = await apibase.post<CreteformData>("evento", data);
+
+      console.log(produtos);
+    } catch (error) {}
+
+    setMyemail(data.Email);
+    setOutput(JSON.stringify(data, null, 2));
+
+    //const cadastrar = api.post<CreteformData>(data);
+  }
 
   //Slider inicio
   const [sliderRef] = useKeenSlider<HTMLDivElement>({
@@ -124,84 +164,6 @@ const Home: NextPage = () => {
                   pronta para elevar seu cartório a um novo nível. Este é o
                   momento de moldar um futuro mais ágil e inovador.
                 </p>
-
-                {/* <div>
-                  <div className="form w-form">
-                    <form
-                      id="email-form"
-                      name="email-form"
-                      data-name="Email Form"
-                      method="get"
-                      className="relative"
-                      data-wf-page-id="636e74e493894c35f9381415"
-                      data-wf-element-id="fd65e9da-c22b-cc7b-71de-f76022017eb3"
-                      aria-label="Email Form"
-                    >
-                      <input
-                        type="email"
-                        className="input-field-2 w-input"
-                        name="Email"
-                        data-name="Email"
-                        placeholder="Your Work Email"
-                        id="field"
-                      />
-                      <input
-                        type="submit"
-                        value=""
-                        data-wait=""
-                        className="circular-form-button-2 w-button"
-                      />
-                    </form>
-                    <div
-                      className="success-message w-form-done"
-                      tabIndex={-1}
-                      role="region"
-                      aria-label="Email Form success"
-                    >
-                      <div>
-                        <span>It`s great to have you on board<a href="#">🎉</a></span>
-                      </div>
-                    </div>
-                    <div
-                      className="error-message w-form-fail"
-                      tabIndex={-1}
-                      role="region"
-                      aria-label="Email Form failure"
-                    >
-                      <div>
-                        Hum… Please enter a valid email address 🚧
-                        <br />
-                      </div>
-                    </div>
-                  </div>
-                  <div className="checkmarks-wrap">
-                    <div className="checkmark-wrap right-margin">
-                      <img
-                        src="https://uploads-ssl.webflow.com/636e74e393894cf1ff381362/636e74e493894ced50381449_small_arrow.svg"
-                        alt=""
-                        className="small-icon"
-                      />
-                       
-                      <div className="paragraph">Know when we launch</div>
-                    </div>
-                    <div className="checkmark-wrap right-margin">
-                      <img
-                        src="https://uploads-ssl.webflow.com/636e74e393894cf1ff381362/636e74e493894ced50381449_small_arrow.svg"
-                        alt=""
-                        className="small-icon"
-                      />
-                      <div className="paragraph">Zero spam guarantee</div>
-                    </div>
-                    <div className="checkmark-wrap">
-                      <img
-                        src="https://uploads-ssl.webflow.com/636e74e393894cf1ff381362/636e74e493894ced50381449_small_arrow.svg"
-                        alt=""
-                        className="small-icon"
-                      />
-                      <div className="paragraph">Cancel Anytime</div>
-                    </div>
-                  </div>
-                </div> */}
               </div>
               <div className={styles.phoneImagesWrap}>
                 <img
@@ -216,72 +178,101 @@ const Home: NextPage = () => {
                   className="_100-width-2 cta-image-1"
                   style={{ borderRadius: 12 }}
                 />
-                <p className={styles.textdesc}>Formulário de Confirmação</p>
-                <form className="row g-3">
-                  <div className="col-12">
-                    {/* <label htmlFor="inputAddress" className="form-label">
-                      Nome do cartório
-                    </label> */}
-                    <input
-                      type="text"
-                      className="form-control inputField2"
-                      id="inputAddress"
-                      placeholder="Nome do cartório"
-                    />
-                  </div>
-                  <div className="col-12">
-                    {/* <label htmlFor="inputAddress2" className="form-label">
-                      Nome do Oficial titular ou Substituto Legal:
-                    </label> */}
-                    <input
-                      type="text"
-                      className="form-control inputField2"
-                      id="inputAddress2"
-                      placeholder="Nome do Oficial Titular ou Substituto Legal:"
-                    />
-                  </div>
-                  <div className="col-12">
-                    {/* <label htmlFor="inputAddress2" className="form-label">
-                      E-mail:
-                    </label> */}
-                    <input
-                      type="text"
-                      className="form-control inputField2"
-                      id="inputAddress2"
-                      placeholder="E-mail"
-                    />
-                  </div>
-                  <div className="col-12">
-                    {/* <label htmlFor="inputAddress2" className="form-label">
-                      Telefone Celular:
-                    </label> */}
-                    <input
-                      type="text"
-                      className="form-control inputField2"
-                      id="inputAddress2"
-                      placeholder="Telefone Celular"
-                    />
-                  </div>
-                  <div className="col-12">
-                    {/* <label htmlFor="inputAddress2" className="form-label">
-                      Cidade:
-                    </label> */}
-                    <input
-                      type="text"
-                      className="form-control inputField2"
-                      id="inputAddress2"
-                      placeholder="Cidade"
-                    />
-                  </div>
-                  <div className="col-12">
+                {myemail ? (
+                  <div>
+                    <h2 className="Parabens">Parabens!</h2>
+                    <p  className="ParabensParagrafo">Sua inscrição foi realizada com sucesso.</p>
                     <button
-                      type="submit"
-                      className="btn btn-success inputField2 w-input"
+                      className={styles.btnBox}
+                      //onClick={() => download(fileUrl, filename)}
                     >
-                      Confirmar participação
+                      Baixar E-book Agora
                     </button>
                   </div>
-                </form>
+                ) : ( <></> )}
+                  <>
+                    <p className={styles.textdesc}>Formulário de Confirmação</p>
+                    <form
+                      className="row g-3"
+                      action=""
+                      onSubmit={handleSubmit(createUser)}
+                    >
+                      <div className="col-12">
+                        <input
+                          type="text"
+                          {...register("Nome")}
+                          className="form-control inputField2"
+                          placeholder="Nome do cartório"
+                        />
+                        {errors.Nome && (
+                          <span className="invalid-feedback centerText">
+                            {errors.Nome.message}
+                          </span>
+                        )}
+                      </div>
+                      <div className="col-12">
+                        <input
+                          type="text"
+                          {...register("Oficial")}
+                          className="form-control inputField2"
+                          placeholder="Nome do Oficial Titular ou Substituto Legal"
+                        />
+                        {errors.Oficial && (
+                          <span className="invalid-feedback">
+                            {errors.Oficial.message}
+                          </span>
+                        )}
+                      </div>
+                      <div className="col-12">
+                        <input
+                          type="text"
+                          {...register("Email")}
+                          className="form-control inputField2"
+                          placeholder="E-mail"
+                        />
+                        {errors.Email && (
+                          <span className="invalid-feedback">
+                            {errors.Email.message}
+                          </span>
+                        )}
+                      </div>
+                      <div className="col-12">
+                        <input
+                          type="text"
+                          {...register("Celular")}
+                          className="form-control inputField2"
+                          placeholder="Telefone Celular"
+                        />
+                        {errors.Celular && (
+                          <span className="invalid-feedback">
+                            {errors.Celular.message}
+                          </span>
+                        )}
+                      </div>
+                      <div className="col-12">
+                        <input
+                          type="text"
+                          {...register("Cidade")}
+                          className="form-control inputField2"
+                          placeholder="Cidade"
+                        />
+                        {errors.Cidade && (
+                          <span className="invalid-feedback">
+                            {errors.Cidade.message}
+                          </span>
+                        )}
+                      </div>
+                      <div className="col-12">
+                        <button
+                          type="submit"
+                          className="btn btn-success inputField2 w-input"
+                        >
+                          Confirmar participação
+                        </button>
+                      </div>
+                    </form>
+                  </>
+              
               </div>
             </div>
           </div>
@@ -368,14 +359,6 @@ const Home: NextPage = () => {
             </div>
           </div>
         </div>
-
-        {/* <div className={styles.section}>
-          <div className={styles.sectionBase}>
-            <div className={styles.sectionTop}>
-              <p className={styles.topTitle}>Conheça nossos parceiros</p>
-              <h2 className={`${styles.h2Title} ${styles.centerText}`}>
-                Parceiros
-              </h2> */}
 
         <div className={styles.section}>
           <div className="text-wrap _6vw-margin">
@@ -517,7 +500,6 @@ const Home: NextPage = () => {
               </p>
             </div>
 
-
             <div className={styles.wNodeCol} id="wNodeCol">
               <div className="_1vw-margin">
                 <img src="/eventos/img/indexa1.svg" alt="Indexa" />
@@ -540,10 +522,6 @@ const Home: NextPage = () => {
                 <img src="/eventos/img/indexa4.svg" alt="Indexa" />
               </div>
             </div>
-
-
-
-
           </div>
         </div>
 
@@ -566,8 +544,6 @@ const Home: NextPage = () => {
         </Link>
 
         <div className={styles.duxgp}>
-          {/* <div><img src="/assets/logo-idexadoc.svg" className={styles.seta} alt="Indexadoc.com.br" /></div> 
-        <div>*/}
           <Link href="https://duxgp.com.br/" passHref>
             <a>
               <img
@@ -577,8 +553,7 @@ const Home: NextPage = () => {
               />
             </a>
           </Link>
-          {/*</div>
-         <div><img src="/assets/logo-idexaged.svg" className={styles.seta} alt="Indexaget.com.br" /></div> */}
+
           <p className={`${styles.largeParagraph} ${styles.centerText}`}>
             DUXGP - SOLUÇÕES EM TI LTDA
             <br />

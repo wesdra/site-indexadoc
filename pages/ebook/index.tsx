@@ -44,11 +44,7 @@ export default function Ebook({ email }: IEmail) {
 
   const [output, setOutput] = useState("");
 
-  const {
-    register,
-    handleSubmit,
-    formState: { errors },
-  } = useForm<CreteformData>({
+  const { register, handleSubmit, formState: { errors }, } = useForm<CreteformData>({
     resolver: zodResolver(createUserFromSchema),
   });
 
