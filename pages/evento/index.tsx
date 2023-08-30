@@ -302,7 +302,7 @@ const Home: NextPage = () => {
               <div ref={sliderRef} className="keen-slider">
                 <div
                   className="keen-slider__slide number-slide1"
-                  style={{ maxWidth: 300, minWidth: 300 }}
+                  style={{ maxWidth: 350, minWidth: 350 }}
                 >
                   <img
                     src="/eventos/img/parceiro1.png"
@@ -312,7 +312,7 @@ const Home: NextPage = () => {
                 </div>
                 <div
                   className="keen-slider__slide number-slide2"
-                  style={{ maxWidth: 300, minWidth: 300 }}
+                  style={{ maxWidth: 350, minWidth: 350 }}
                 >
                   <img
                     src="/eventos/img/parceiro2.png"
@@ -322,7 +322,7 @@ const Home: NextPage = () => {
                 </div>
                 <div
                   className="keen-slider__slide number-slide3"
-                  style={{ maxWidth: 300, minWidth: 300 }}
+                  style={{ maxWidth: 350, minWidth: 350 }}
                 >
                   <img
                     src="/eventos/img/parceiro3.png"
@@ -332,7 +332,7 @@ const Home: NextPage = () => {
                 </div>
                 <div
                   className="keen-slider__slide number-slide4"
-                  style={{ maxWidth: 300, minWidth: 300 }}
+                  style={{ maxWidth: 350, minWidth: 350 }}
                 >
                   <img
                     src="/eventos/img/parceiro4.png"
@@ -342,7 +342,7 @@ const Home: NextPage = () => {
                 </div>
                 <div
                   className="keen-slider__slide number-slide5"
-                  style={{ maxWidth: 300, minWidth: 300 }}
+                  style={{ maxWidth: 350, minWidth: 350 }}
                 >
                   <img
                     src="/eventos/img/parceiro5.png"
@@ -352,7 +352,7 @@ const Home: NextPage = () => {
                 </div>
                 <div
                   className="keen-slider__slide number-slide6"
-                  style={{ maxWidth: 300, minWidth: 300 }}
+                  style={{ maxWidth: 350, minWidth: 350 }}
                 >
                   <img
                     src="/eventos/img/parceiro6.png"
