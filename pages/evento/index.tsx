@@ -201,7 +201,7 @@ const Home: NextPage = () => {
               </div>
               <div className={styles.phoneImagesWrap}>
                 <img
-                  src="/evento/img/event.jpg"
+                  src="/eventos/img/event.jpg"
                   loading="eager"
                   sizes="(max-width: 479px) 100vw, (max-width: 991px) 21vw, 20vw"
                   // srcSet="https://uploads-ssl.webflow.com/636e74e393894cf1ff381362/63781bf5359e1dae4d71fd69_soda-footer-p-500.jpg 500w,
@@ -305,7 +305,7 @@ const Home: NextPage = () => {
                   style={{ maxWidth: 300, minWidth: 300 }}
                 >
                   <img
-                    src="/evento/img/parceiro1.png"
+                    src="/eventos/img/parceiro1.png"
                     className=" featureCard"
                     alt="Parceiro"
                   />
@@ -315,7 +315,7 @@ const Home: NextPage = () => {
                   style={{ maxWidth: 300, minWidth: 300 }}
                 >
                   <img
-                    src="/evento/img/parceiro2.png"
+                    src="/eventos/img/parceiro2.png"
                     className=" featureCard"
                     alt="Parceiro"
                   />
@@ -325,7 +325,7 @@ const Home: NextPage = () => {
                   style={{ maxWidth: 300, minWidth: 300 }}
                 >
                   <img
-                    src="/evento/img/parceiro3.png"
+                    src="/eventos/img/parceiro3.png"
                     className=" featureCard"
                     alt="Parceiro"
                   />
@@ -335,7 +335,7 @@ const Home: NextPage = () => {
                   style={{ maxWidth: 300, minWidth: 300 }}
                 >
                   <img
-                    src="/evento/img/parceiro4.png"
+                    src="/eventos/img/parceiro4.png"
                     className=" featureCard"
                     alt="Parceiro"
                   />
@@ -345,7 +345,7 @@ const Home: NextPage = () => {
                   style={{ maxWidth: 300, minWidth: 300 }}
                 >
                   <img
-                    src="/evento/img/parceiro5.png"
+                    src="/eventos/img/parceiro5.png"
                     className=" featureCard"
                     alt="Parceiro"
                   />
@@ -355,7 +355,7 @@ const Home: NextPage = () => {
                   style={{ maxWidth: 300, minWidth: 300 }}
                 >
                   <img
-                    src="/evento/img/parceiro6.png"
+                    src="/eventos/img/parceiro6.png"
                     className=" featureCard"
                     alt="Parceiro"
                   />
