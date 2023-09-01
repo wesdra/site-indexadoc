@@ -233,6 +233,10 @@
   color: #059F68;
   margin-bottom: 20px;
 }
+
+
+
+
 .textdescpreto {
   font-size: 2.1vw;
   font-weight: normal;
@@ -242,6 +246,26 @@
   margin-bottom: 20px;
 }
 
+@media screen and (max-width: 991px) {
+  .textdesc {
+    font-size: 2.8vw;
+  }
+  .textdescpreto {
+    font-size: 2.5vw;
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  .textdesc {
+    font-size: 4.1vw;
+  }
+  .textdescpreto {
+    font-size: 3.1vw;
+  }
+}
+
+
 .textdescsmall {
   font-size: 1.1vw;
   font-weight: normal;
@@ -250,6 +274,8 @@
   color: #059F68;
   margin-bottom: 20px;
 }
+
+
 
 .textwhats {
   font-size: 1.3vw;
@@ -290,14 +316,15 @@
   background-color: #F0F4F7;
   padding: 30px;
 }
+
 .sectionBaseFnd {
   background-image: url("/eventos/img/eventofnd.jpg");
-  background-repeat:no-repeat;
-  -webkit-background-size:cover;
-  -moz-background-size:cover;
-  -o-background-size:cover;
-  background-size:cover;
-  background-position:center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
 
 }
 
@@ -322,6 +349,19 @@
   letter-spacing: -1px;
   padding: 0 20px;
   font-size: 1.1vw;
+}
+
+@media screen and (max-width: 991px) {
+  .duxgp P {
+    font-size: 1.8vw;
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  .duxgp P {
+    font-size: 1.9vw;
+  }
 }
 
 .duxgp div img {
@@ -708,11 +748,12 @@
 }
 
 .largeParagraph {
-  font-size: 1.5vw;
-  letter-spacing: -0.05vw;
+  font-size: 1.8vw;
+  letter-spacing: -0.09vw;
   margin-bottom: 0px;
   line-height: 1.6;
   margin-bottom: 10px;
+
 }
 
 @media screen and (max-width: 991px) {
@@ -769,6 +810,18 @@
 
 
 
+
+
+.h5Title {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 1.5vw;
+  line-height: 1.4;
+  font-weight: 700;
+  letter-spacing: -0.0975vw;
+}
+
+
 @media screen and (max-width: 991px) {
 
   .h5Title {
@@ -781,15 +834,6 @@
   .h5Title {
     font-size: 16px;
   }
-}
-
-.h5Title {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  font-size: 1.5vw;
-  line-height: 1.4;
-  font-weight: 700;
-  letter-spacing: -0.0975vw;
 }
 
 
@@ -820,14 +864,20 @@
   margin-bottom: 1vw;
 }
 
-@media screen and (max-width: 991px){
+@media screen and (max-width: 991px) {
   .mediumIcon {
-      height: 16px;
-      margin-bottom: 1vw;
-}}
-
-@media screen and (max-width: 767px){
-.mediumIcon {
     height: 16px;
     margin-bottom: 1vw;
-}}
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .mediumIcon {
+    height: 16px;
+    margin-bottom: 1vw;
+  }
+}
+
+.marginTop {
+  margin-top: 1.8rem !important;
+}

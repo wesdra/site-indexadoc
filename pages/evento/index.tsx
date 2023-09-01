@@ -8,7 +8,8 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { useKeenSlider } from "keen-slider/react";
 import "keen-slider/keen-slider.min.css";
 import { api, apibase } from "../../services/api";
-import { useForm } from "react-hook-form";
+import { Controller, useForm } from "react-hook-form";
+import InputMask from "react-input-mask";
 
 const animation = { duration: 8000, easing: (t: number) => t };
 
@@ -16,12 +17,20 @@ type useCookes = {
   use: string;
 };
 
+// Define um regex para validar o número de telefone no formato brasileiro
+const phoneRegex = /^\(?\d{2}\)?[\s-]?9?\d{4}-?\d{4}$/;
+
 const createUserFromSchema = z.object({
-  Nome: z.string().nonempty("O Nome é obrigatório"),
-  Oficial: z.string().nonempty("O Nome do Oficial ou Substituto é obrigatório"),
-  Celular: z.string().nonempty("O Celular é obrigatório"),
-  Cidade: z.string().nonempty("A Cidade é obrigatório"),
-  Email: z.string().email("Formato de e-mail inválido").toLowerCase(),
+  nome: z.string().nonempty("O Nome é obrigatório"),
+  oficial: z.string().nonempty("O Nome do Oficial ou Substituto é obrigatório"),
+  celular: z
+    .string()
+    .nonempty("O Celular é obrigatório")
+    .refine((phone) => phoneRegex.test(phone), {
+      message: "Número de telefone inválido",
+    }),
+  cidade: z.string().nonempty("A Cidade é obrigatório"),
+  email: z.string().email("Formato de e-mail inválido").toLowerCase(),
 });
 
 type CreteformData = z.infer<typeof createUserFromSchema>;
@@ -34,10 +43,12 @@ const Home: NextPage = () => {
   const [useCookes, setUseCookes] = useState<useCookes>(useStorageCookes);
 
   const [myemail, setMyemail] = useState("");
-  const [output, setOutput] = useState("");
+  //const [output, setOutput] = useState("");
+  const [result, setResult] = useState<boolean>(false);
 
   const {
     register,
+    control,
     handleSubmit,
     formState: { errors },
   } = useForm<CreteformData>({
@@ -48,13 +59,14 @@ const Home: NextPage = () => {
     console.log(JSON.stringify(data, null, 2));
 
     try {
-      const produtos = await apibase.post<CreteformData>("evento", data);
-
-      console.log(produtos);
+      const evento = await apibase.post<CreteformData>("evento", data);
+      if (evento.status == 200) {
+        setResult(true);
+        setMyemail(data.email)
+      }
     } catch (error) {}
 
-    setMyemail(data.Email);
-    setOutput(JSON.stringify(data, null, 2));
+    //setOutput(JSON.stringify(data, null, 2));
 
     //const cadastrar = api.post<CreteformData>(data);
   }
@@ -178,101 +190,147 @@ const Home: NextPage = () => {
                   className="_100-width-2 cta-image-1"
                   style={{ borderRadius: 12 }}
                 />
-                {myemail ? (
+                {myemail && !result && (
+                  <>
+                    <span className="invalid-feedback">
+                      Não foi possível confirmar, tente novamente. Se o problema
+                      persistir fala pelo Whatsapp
+                    </span>
+                    <Link href="https://bit.ly/3J9XjZC" passHref>
+                      <div className={styles.btnBox}>
+                        <a>
+                          <img
+                            src="/assets/seta.svg"
+                            className={styles.seta}
+                            alt="Fale conosco"
+                          />
+                          <img
+                            src="/assets/icon-whatsapp.svg"
+                            className={styles.whats}
+                            alt="Fale conosco"
+                          />
+                          <span>WhatsApp</span>
+                        </a>
+                      </div>
+                    </Link>
+                  </>
+                )}
+                {result  ? (
                   <div>
                     <h2 className="Parabens">Parabens!</h2>
-                    <p  className="ParabensParagrafo">Sua inscrição foi realizada com sucesso.</p>
-                    <button
-                      className={styles.btnBox}
-                      //onClick={() => download(fileUrl, filename)}
-                    >
-                      Baixar E-book Agora
-                    </button>
+                    <p className="ParabensParagrafo">
+                      Sua inscrição foi realizada com sucesso.
+                    </p>
+                    <p className={styles.centerText}>Verifique seu e-mail {myemail}.</p>
                   </div>
-                ) : ( <></> )}
-                  <>
-                    <p className={styles.textdesc}>Formulário de Confirmação</p>
-                    <form
-                      className="row g-3"
-                      action=""
-                      onSubmit={handleSubmit(createUser)}
-                    >
-                      <div className="col-12">
-                        <input
-                          type="text"
-                          {...register("Nome")}
-                          className="form-control inputField2"
-                          placeholder="Nome do cartório"
-                        />
-                        {errors.Nome && (
-                          <span className="invalid-feedback centerText">
-                            {errors.Nome.message}
-                          </span>
+                ) : (
+           
+               
+                <>
+                  <p className={`${styles.textdesc} ${styles.marginTop}`}>Formulário de Confirmação</p>
+                  {/* <p>{output}</p> */}
+                  <form
+                    className="row g-3"
+                    action=""
+                    onSubmit={handleSubmit(createUser)}
+                  >
+                    <div className="col-12">
+                      <input
+                        type="text"
+                        {...register("nome")}
+                        className="form-control inputField2"
+                        placeholder="Nome do cartório"
+                      />
+                      {errors.nome && (
+                        <span className="invalid-feedback centerText">
+                          {errors.nome.message}
+                        </span>
+                      )}
+                    </div>
+                    <div className="col-12">
+                      <input
+                        type="text"
+                        {...register("oficial")}
+                        className="form-control inputField2"
+                        placeholder="Nome do Oficial Titular ou Substituto Legal"
+                      />
+                      {errors.oficial && (
+                        <span className="invalid-feedback">
+                          {errors.oficial.message}
+                        </span>
+                      )}
+                    </div>
+                    <div className="col-12">
+                      <input
+                        type="text"
+                        {...register("email")}
+                        className="form-control inputField2"
+                        placeholder="E-mail"
+                      />
+                      {errors.email && (
+                        <span className="invalid-feedback">
+                          {errors.email.message}
+                        </span>
+                      )}
+                    </div>
+                    <div className="col-12">
+                      {/* <input
+                        type="text"
+                        {...register("celular")}
+                        className="form-control inputField2"
+                        placeholder="Telefone Celular"
+                      /> */}
+
+                      <Controller
+                        name="celular"
+                        control={control}
+                        defaultValue=""
+                        render={({ field }) => (
+                          <InputMask mask="(99) 99999-9999" {...field}>
+                            {(
+                              inputProps: React.InputHTMLAttributes<HTMLInputElement>
+                            ) => (
+                              <input
+                                {...inputProps}
+                                className="form-control inputField2"
+                                placeholder="Telefone Celular"
+                                type="text"
+                              />
+                            )}
+                          </InputMask>
                         )}
-                      </div>
-                      <div className="col-12">
-                        <input
-                          type="text"
-                          {...register("Oficial")}
-                          className="form-control inputField2"
-                          placeholder="Nome do Oficial Titular ou Substituto Legal"
-                        />
-                        {errors.Oficial && (
-                          <span className="invalid-feedback">
-                            {errors.Oficial.message}
-                          </span>
-                        )}
-                      </div>
-                      <div className="col-12">
-                        <input
-                          type="text"
-                          {...register("Email")}
-                          className="form-control inputField2"
-                          placeholder="E-mail"
-                        />
-                        {errors.Email && (
-                          <span className="invalid-feedback">
-                            {errors.Email.message}
-                          </span>
-                        )}
-                      </div>
-                      <div className="col-12">
-                        <input
-                          type="text"
-                          {...register("Celular")}
-                          className="form-control inputField2"
-                          placeholder="Telefone Celular"
-                        />
-                        {errors.Celular && (
-                          <span className="invalid-feedback">
-                            {errors.Celular.message}
-                          </span>
-                        )}
-                      </div>
-                      <div className="col-12">
-                        <input
-                          type="text"
-                          {...register("Cidade")}
-                          className="form-control inputField2"
-                          placeholder="Cidade"
-                        />
-                        {errors.Cidade && (
-                          <span className="invalid-feedback">
-                            {errors.Cidade.message}
-                          </span>
-                        )}
-                      </div>
-                      <div className="col-12">
-                        <button
-                          type="submit"
-                          className="btn btn-success inputField2 w-input"
-                        >
-                          Confirmar participação
-                        </button>
-                      </div>
-                    </form>
-                  </>
-              
+                      />
+
+                      {errors.celular && (
+                        <span className="invalid-feedback">
+                          {errors.celular.message}
+                        </span>
+                      )}
+                    </div>
+                    <div className="col-12">
+                      <input
+                        type="text"
+                        {...register("cidade")}
+                        className="form-control inputField2"
+                        placeholder="Cidade"
+                      />
+                      {errors.cidade && (
+                        <span className="invalid-feedback">
+                          {errors.cidade.message}
+                        </span>
+                      )}
+                    </div>
+                    <div className="col-12">
+                      <button
+                        type="submit"
+                        className="btn btn-success inputField2 w-input"
+                      >
+                        Confirmar participação
+                      </button>
+                    </div>
+                  </form>
+                </>
+                 )}
               </div>
             </div>
           </div>
@@ -376,7 +434,7 @@ const Home: NextPage = () => {
               nossa tecnologia de ponta oferece:
             </p>
           </div>
-          <div className={styles._4ColumnsGrid}>
+          <div className={`${styles._4ColumnsGrid} ${styles.marginTop}`}>
             <div className={styles.wNodeCol} id="wNodeCol">
               <div className="_1vw-margin">
                 <svg
