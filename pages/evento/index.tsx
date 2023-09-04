@@ -152,7 +152,7 @@ const Home: NextPage = () => {
                   Exclusivo. Prepare-se para uma experiência única:
                 </p>
                 <p className={`${styles.largeParagraph} ${styles._4vwMargin}`}>
-                  <strong>Data</strong>: 📅 14 de novembro de 2023
+                  <strong>Data</strong>: 📅 14 de setembro de 2023
                   <br />
                   <strong>Horário</strong>: ⌚ 14h30
                   <br />
