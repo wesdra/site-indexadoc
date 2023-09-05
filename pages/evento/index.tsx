@@ -413,6 +413,16 @@ const Home: NextPage = () => {
                     alt="Parceiro"
                   />
                 </div>
+                <div
+                  className="keen-slider__slide number-slide6"
+                  style={{ maxWidth: 350, minWidth: 350 }}
+                >
+                  <img
+                    src="/eventos/img/parceiro7.png"
+                    className=" featureCard"
+                    alt="Parceiro"
+                  />
+                </div>
               </div>
             </div>
           </div>
