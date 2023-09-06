@@ -281,7 +281,20 @@
   font-weight: 400;
   letter-spacing: -1px;
   padding: 0 20px;
-  font-size: 12px;
+  font-size: 1.1vw;
+}
+
+@media screen and (max-width: 991px) {
+  .duxgp P {
+    font-size: 1.8vw;
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  .duxgp P {
+    font-size: 1.9vw;
+  }
 }
 
 .duxgp div img {
@@ -292,8 +305,8 @@
 .duxgplogo {
   display: block;
   margin: 50px auto 30px auto;
-  width: 100px;
-  max-width: 100px;
+  width: 180px;
+  max-width: 180px;
 
 }
 
@@ -562,3 +575,29 @@
     font-size: 10px;
   }
 }
+
+.largeParagraph {
+  font-size: 1.8vw;
+  letter-spacing: -0.09vw;
+  margin-bottom: 0px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+
+}
+
+@media screen and (max-width: 991px) {
+  .largeParagraph {
+    font-size: 2.5vw;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .largeParagraph {
+    font-size: 12px;
+  }
+}
+
+.centerText {
+  text-align: center;
+}
+

@@ -1,0 +1,2382 @@
+[
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-0",
+    "assunto": "SERVIÇOS NOTARIAIS E DE REGISTRO – PROCESSOS E DOCUMENTOS",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "",
+      "faseintermediaria": ""
+    },
+    "destinacaofinal": {
+      "eliminacao": "",
+      "guardapermanente": "",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": ""
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-1",
+    "assunto": "REGISTRO CIVIL DAS PESSOAS NATURAIS",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "",
+      "faseintermediaria": ""
+    },
+    "destinacaofinal": {
+      "eliminacao": "",
+      "guardapermanente": "",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": ""
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-1-1",
+    "assunto": "LIVROS",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "",
+      "faseintermediaria": ""
+    },
+    "destinacaofinal": {
+      "eliminacao": "",
+      "guardapermanente": "",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": ""
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-1-1-1",
+    "assunto": "Livro tombo",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "Permanente",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "",
+      "guardapermanente": "X",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": "=> BASE LEGAL:- Lei nº 6015/73."
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-1-1-2",
+    "assunto": "Livro de editais e proclamas",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "Permanente",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "",
+      "guardapermanente": "X",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": "=> BASE LEGAL:- Lei nº 6015/73."
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-1-1-3",
+    "assunto": "Livro de registro de nascimento - assento",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "Permanente",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "",
+      "guardapermanente": "X",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": "=> BASE LEGAL:- Lei nº 6015/73."
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-1-1-4",
+    "assunto": "Livro de registro de óbito - assento",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "Permanente",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "",
+      "guardapermanente": "X",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": "=> BASE LEGAL:- Lei nº 6015/73."
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-1-1-5",
+    "assunto": "Livro de registro de casamento - assento",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "Permanente",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "",
+      "guardapermanente": "X",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": "=>BASE LEGAL:- Lei nº 6015/73."
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-1-1-6",
+    "assunto": "Livro E – registro de qualquer espécie (sentenças, transcrições, opções de nacionalidade, etc.)",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "Permanente",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "",
+      "guardapermanente": "X",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": "=> BASE LEGAL:- Lei nº 6015/73."
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-1-2",
+    "assunto": "REGISTRO DE NASCIMENTO – ASSENTO (INATIVO)",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "Permanente",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "",
+      "guardapermanente": "X",
+      "microfilmagem": "X",
+      "digitalizacao": "X"
+    },
+    "obs": "=> BASE LEGAL:- Lei nº 6015/73."
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-1-3",
+    "assunto": "DECLARAÇÃO DE NASCIDO VIVO - DNV",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "1 ano",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "X",
+      "guardapermanente": "",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": "=> Documento controlado pelo Ministério da Saúde."
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-1-4",
+    "assunto": "REGISTRO DE ÓBITO – ASSENTO (INATIVO)",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "Permanente",
+      "faseintermediaria": ""
+    },
+    "destinacaofinal": {
+      "eliminacao": "",
+      "guardapermanente": "X",
+      "microfilmagem": "X",
+      "digitalizacao": "X"
+    },
+    "obs": "=> BASE LEGAL:- Lei nº 6015/73."
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-1-5",
+    "assunto": "DECLARAÇÃO DE ÓBITO – DO (GUIA)",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "1 ano",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "X",
+      "guardapermanente": "",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": "=> Documento controlado pelo Ministério da Saúde."
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-1-6",
+    "assunto": "RETIFICAÇÕES DE QUALQUER ESPÉCIE, REGISTRO DE NASCIMENTO TARDIO E OUTROS PROCESSOS COM TRÂMITE NA PRÓPRIA SERVENTIA",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "5 anos",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "X",
+      "guardapermanente": "",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": "=> BASE LEGAL:- Lei nº 6015/73."
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-1-7",
+    "assunto": "AVERBAÇÕES (MANDADO, CARTA DE SENTENÇA, RECONHECIMENTO VOLUNTÁRIO DE PATERNIDADE, ADOÇÃO, LEGITIMAÇÕES ETC.)",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "5 anos após a averbação própriamente dita",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "X",
+      "guardapermanente": "",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": "=> BASE LEGAL:- Lei nº 6015/73."
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-1-8",
+    "assunto": "CASAMENTO",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "",
+      "faseintermediaria": ""
+    },
+    "destinacaofinal": {
+      "eliminacao": "",
+      "guardapermanente": "",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": ""
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-1-8-1",
+    "assunto": "Registro de casamento – assento",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "Permanente",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "",
+      "guardapermanente": "X",
+      "microfilmagem": "X",
+      "digitalizacao": "X"
+    },
+    "obs": "=> BASE LEGAL:- Lei nº 6015/73."
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-1-8-2",
+    "assunto": "Habilitação para casamento",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "",
+      "faseintermediaria": ""
+    },
+    "destinacaofinal": {
+      "eliminacao": "",
+      "guardapermanente": "",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": ""
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-1-8-2-1",
+    "assunto": "Casamentos celebrados",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "5 anos após o trânsito em julgado da sentença homologa-tória",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "X",
+      "guardapermanente": "",
+      "microfilmagem": "X",
+      "digitalizacao": "X"
+    },
+    "obs": "=> PRAZO DE GUARDA: - A eliminação só é permitida caso a documentação seja microfilmada ou digitalizada; - Microfilmar ou digitalizar: memorial, certidão de nascimento dos noivos, termo de opção, certidão de habilitação de casamento ou a certificação de sua entrega aos nubentes, sentença de suprimento de idade núbil e sentença homologatória (Lei nº 6015/73). =>QUANTO AO CONTEÚDO, ENGLOBA: - Sentença de suprimento de idade núbil/Suprimento de idade ou consentimento (código 3-1-9)"
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-1-8-2-2",
+    "assunto": "Casamentos inocorridos",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "6 meses após a autuação",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "X",
+      "guardapermanente": "",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": "=> O casamento não realizado no prazo de 90 (noventa) dias após a efetiva habilitação sofre os efeitos da decadência (Código Civil)."
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-1-8-3",
+    "assunto": "Edital de proclamas",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "6 meses após a sua fixação no serviço e publicação",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "X",
+      "guardapermanente": "",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": ""
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-1-9",
+    "assunto": "SUPRIMENTO (DE IDADE OU CONSENTIMENTO) (INATIVO)",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "2 anos após o trânsito em julgado da sentença",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "X",
+      "guardapermanente": "",
+      "microfilmagem": "X",
+      "digitalizacao": "X"
+    },
+    "obs": "=> PRAZO DE GUARDA:- A eliminação só é permitida caso a documentação seja microfilmada ou digitalizada; - Microfilmar ou digitalizar: sentença de suprimento (Lei nº 6015/73)."
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-1-10",
+    "assunto": "COMUNICAÇÕES",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "2 anos após a efetiva anotação",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "X",
+      "guardapermanente": "",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": "=> BASE LEGAL:- Art. 106 da Lei nº 6015/73."
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-1-11",
+    "assunto": "DECLARAÇÃO DE HIPOSSUFICIÊNCIA",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "1 ano",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "X",
+      "guardapermanente": "",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": ""
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-1-12",
+    "assunto": "REGISTRO DE QUALQUER ESPÉCIE (SENTENÇAS, TRANSCRIÇÕES, OPÇÕES DE NACIONALIDADE) (INATIVO)",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "Permanente",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "",
+      "guardapermanente": "X",
+      "microfilmagem": "X",
+      "digitalizacao": "X"
+    },
+    "obs": "=> BASE LEGAL: - Lei nº 6015/73."
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-1-13",
+    "assunto": "DOCUMENTOS QUE INSTRUÍRAM O REGISTRO (FEITOS REFERENTES A BRASILEIROS NO EXTERIOR, APÓS REGISTRO NO RTD; OPÇÕES DE NACIONALIDADE ETC.)",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "5 anos após o efetivo registro no Livro E",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "X",
+      "guardapermanente": "",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": "=> BASE LEGAL: - Lei nº 6015/73."
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-2",
+    "assunto": "REGISTRO GERAL DE IMÓVEIS",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "",
+      "faseintermediaria": ""
+    },
+    "destinacaofinal": {
+      "eliminacao": "",
+      "guardapermanente": "",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": ""
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-2-1",
+    "assunto": "Livros",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "",
+      "faseintermediaria": ""
+    },
+    "destinacaofinal": {
+      "eliminacao": "",
+      "guardapermanente": "",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": ""
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-2-1-1",
+    "assunto": "Protocolo",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "Permanente",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "",
+      "guardapermanente": "X",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": ""
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-2-1-2",
+    "assunto": "Registro geral",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "Permanente",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "",
+      "guardapermanente": "X",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": ""
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-2-1-3",
+    "assunto": "Registro auxiliar",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "Permanente",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "",
+      "guardapermanente": "X",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": ""
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-2-1-4",
+    "assunto": "Indicador real",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "Permanente",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "",
+      "guardapermanente": "X",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": ""
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-2-1-5",
+    "assunto": "Indicador pessoal",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "Permanente",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "",
+      "guardapermanente": "X",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": ""
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-2-1-6",
+    "assunto": "De estrangeiros de terras rurais",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "Permanente",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "",
+      "guardapermanente": "X",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": ""
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-2-1-7",
+    "assunto": "Indisponibilidade de bens",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "Permanente",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "",
+      "guardapermanente": "X",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": ""
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-2-1-8",
+    "assunto": "Registro de Torrens",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "Permanente",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "",
+      "guardapermanente": "X",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": ""
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-2-2",
+    "assunto": "AVISO DE INDISPONIBILIDADE DE BENS",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "----",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "",
+      "guardapermanente": "X",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": ""
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-2-3",
+    "assunto": "MEMORIAL DE INCORPORAÇÃO",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "Permanente",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "",
+      "guardapermanente": "X",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": ""
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-2-4",
+    "assunto": "MEMORIAL DE LOTEAMENTO",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "Permanente",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "",
+      "guardapermanente": "X",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": ""
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-2-5",
+    "assunto": "DOCUMENTOS APRESENTADOS PARA REGISTRO (TÍTULOS, COM PRENOTAÇÃO CANCELADA, NÃO RETIRADOS PELO REQUERENTE)",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "5 anos após o cancela-mento da prenotação",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "X",
+      "guardapermanente": "",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": "=> QUANTO AO CONTEÚDO, ENGLOBA: - carta de adjudicação; formal de partilha; quitação de hipoteca/averbação; escrituras translativas de propriedade, de hipoteca e requerimento de averbação."
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-2-5-1",
+    "assunto": "DOCUMENTOS APRESENTADOS PARA REGISTRO (TÍTULOS REGISTRADOS)",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "1 ano",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "X",
+      "guardapermanente": "",
+      "microfilmagem": "X",
+      "digitalizacao": "X"
+    },
+    "obs": "=> PRAZO DE GUARDA: - A eliminação só é permitida caso a documentação seja microfilmada ou digitalizada."
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-2-6",
+    "assunto": "COMPROVANTE DE EMISSÃO DE DECLARAÇÃO DE OPERAÇÃO IMOBILIÁRIA (DOI)",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "5 anos",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "X",
+      "guardapermanente": "",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": ""
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-3",
+    "assunto": "REGISTRO DE DISTRIBUIÇÃO / DISTRIBUIDORES",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "",
+      "faseintermediaria": ""
+    },
+    "destinacaofinal": {
+      "eliminacao": "",
+      "guardapermanente": "",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": ""
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-3-1",
+    "assunto": "LIVROS",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "",
+      "guardapermanente": "",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": ""
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-3-1-1",
+    "assunto": "Registro de ações distribuídas",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "Permanente",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "",
+      "guardapermanente": "X",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": ""
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-3-1-2",
+    "assunto": "Registro de títulos distribuídos para protesto",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "Permanente",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "",
+      "guardapermanente": "X",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": ""
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-3-1-3",
+    "assunto": "Registro de títulos distribuídos para transferência de domínio",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "Permanente",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "",
+      "guardapermanente": "X",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": "=> ALTERAÇÕES: - Denominação anterior: “Ônus reais”."
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-3-1-4",
+    "assunto": "Registro de sentença – Varas empresariais",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "Permanente",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "",
+      "guardapermanente": "X",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": ""
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-3-1-5",
+    "assunto": "Registro de escritura pública de imóveis",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "Permanente",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "",
+      "guardapermanente": "X",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": ""
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-3-1-6",
+    "assunto": "Registro de testamentos",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "Permanente",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "",
+      "guardapermanente": "X",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": ""
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-3-1-7",
+    "assunto": "Registro de habilitações de casamentos",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "Permanente",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "",
+      "guardapermanente": "X",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": ""
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-3-1-8",
+    "assunto": "Registro de constituição de pessoa jurídica",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "Permanente",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "",
+      "guardapermanente": "X",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": ""
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-3-1-9",
+    "assunto": "Registro de títulos e documentos",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "Permanente",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "",
+      "guardapermanente": "X",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": ""
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-3-2",
+    "assunto": "ATAS DE DISTRIBUIÇÃO",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "5 anos",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "X",
+      "guardapermanente": "",
+      "microfilmagem": "X",
+      "digitalizacao": "X"
+    },
+    "obs": "=> PRAZO DE GUARDA: - A eliminação só é permitida caso a documentação seja microfilmada ou digitalizada."
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-3-3",
+    "assunto": "AVISOS DA CGJ (SOBRE INDISPONIBILIDADE DE BENS ETC.)",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "20 anos",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "X",
+      "guardapermanente": "",
+      "microfilmagem": "X",
+      "digitalizacao": "X"
+    },
+    "obs": "=> PRAZO DE GUARDA: - A eliminação só é permitida caso a documentação seja microfilmada ou digitalizada."
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-3-4",
+    "assunto": "CERTIDÕES DE BAIXAS (PROTESTOS), CARTAS DE ANUÊNCIAS",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "10 anos",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "X",
+      "guardapermanente": "",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": "=> BASE LEGAL: - Art. 205 do Código Civil."
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-3-5",
+    "assunto": "COMUNICAÇÃO RELATIVA À HABILITAÇÃO DE CASAMENTO (DAS CIRCUNSCRIÇÕES DE REGISTRO CIVIL)",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "1 ano após o efetivo registro",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "X",
+      "guardapermanente": "",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": "=> BASE LEGAL: - Art. 205 do Código Civil."
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-3-6",
+    "assunto": "DECLARAÇÃO DE HOMONÍMIA",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "20 anos",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "X",
+      "guardapermanente": "",
+      "microfilmagem": "X",
+      "digitalizacao": "X"
+    },
+    "obs": "=> PRAZO DE GUARDA: - A eliminação só é permitida caso a documentação seja microfilmada ou digitalizada."
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-3-7",
+    "assunto": "FICHAS E ÍNDICES",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "20 anos",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "X",
+      "guardapermanente": "",
+      "microfilmagem": "X",
+      "digitalizacao": "X"
+    },
+    "obs": "=> PRAZO DE GUARDA: - A eliminação só é permitida caso a documentação seja microfilmada ou digitalizada."
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-3-8",
+    "assunto": "OFÍCIOS - DE ANOTAÇÕES (AVERBAÇÕES, BAIXAS, RETIFICAÇÕES, INCLUSÕES ETC.)",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "10 anos",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "X",
+      "guardapermanente": "",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": "=> BASE LEGAL: - Art. 205 do Código Civil;"
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-3-9",
+    "assunto": "OFÍCIOS / PEDIDOS DE CERTIDÕES E CANCELAMENTOS",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "5 anos",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "X",
+      "guardapermanente": "",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": ""
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-3-10",
+    "assunto": "PROTOCOLO DOS TÍTULOS DISTRIBUÍDOS PARA PROTESTO",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "10 anos",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "X",
+      "guardapermanente": "",
+      "microfilmagem": "X",
+      "digitalizacao": "X"
+    },
+    "obs": "=> PRAZO DE GUARDA: - A eliminação só é permitida caso a documentação seja microfilmada ou digitalizada;"
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-3-11",
+    "assunto": "PUBLICAÇÕES EM JORNAIS - SOBRE REQUISIÇÃO DE CERTIDÕES (DIÁRIO OFICIAL,...)",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "1 ano",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "X",
+      "guardapermanente": "",
+      "microfilmagem": "X",
+      "digitalizacao": "X"
+    },
+    "obs": "=> PRAZO DE GUARDA: - A eliminação só é permitida caso a documentação seja microfilmada ou digitalizada;"
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-3-12",
+    "assunto": "CÓPIA DE TÍTULOS E / OU REQUERIMENTOS APRESENTADOS PARA PROTESTO",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "10 anos",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "X",
+      "guardapermanente": "",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": "=> PRAZO DE GUARDA: - Caso estes documentos sejam microfilmados ou digitalizados, a eliminação poderá ocorrer a qualquer tempo (Art. 35 § 2º da Lei nº 9492/97)."
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-4",
+    "assunto": "TABELIONATO DE PROTESTO DE TÍTULOS",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "",
+      "faseintermediaria": ""
+    },
+    "destinacaofinal": {
+      "eliminacao": "",
+      "guardapermanente": "",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": ""
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-4-1",
+    "assunto": "LIVROS",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "",
+      "faseintermediaria": ""
+    },
+    "destinacaofinal": {
+      "eliminacao": "",
+      "guardapermanente": "",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": ""
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-4-1-1",
+    "assunto": "Protocolo",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "3 anos",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "X",
+      "guardapermanente": "",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": "=> BASE LEGAL: - Art. 36 da Lei nº 9492/97"
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-4-1-2",
+    "assunto": "Registro de protesto",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "10 anos",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "X",
+      "guardapermanente": "",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": "=> BASE LEGAL: - Art. 36 da Lei nº 9492/97"
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-4-2",
+    "assunto": "COMPROVANTES DE PAGAMENTO DOS CREDORES, DE DEVOLUÇÃO DE TÍTULOS E DOCUMENTOS",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "1 mês",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "X",
+      "guardapermanente": "",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": "=> BASE LEGAL: - Art. 35 § 1º, III, da Lei nº 9492/97"
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-4-3",
+    "assunto": "INTIMAÇÕES E EDITAIS",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "",
+      "faseintermediaria": ""
+    },
+    "destinacaofinal": {
+      "eliminacao": "",
+      "guardapermanente": "",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": ""
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-4-3-1",
+    "assunto": "de documentos protestados",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "1 ano",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "X",
+      "guardapermanente": "",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": "=> BASE LEGAL: - Art. 35 § 1º, III, da Lei nº 9492/97"
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-4-3-2",
+    "assunto": "de títulos pagos ou retirados",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "6 meses",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "X",
+      "guardapermanente": "",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": "=> BASE LEGAL: - Art. 35 § 1º, III, da Lei nº 9492/97"
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-4-4",
+    "assunto": "MANDADOS / OFÍCIOS JUDICIAIS",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "10 anos",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "X",
+      "guardapermanente": "",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": "=> BASE LEGAL: - Art. 205 – Código Civil"
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-4-4-1",
+    "assunto": "Mandado de sustação",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "1 ano após solução definitiva pelo Juiz",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "X",
+      "guardapermanente": "",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": "=> BASE LEGAL:- Art. 35 § 3º, da Lei nº 9492/97"
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-4-5",
+    "assunto": "ORDENS DE CANCELAMENTO",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "1 ano",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "X",
+      "guardapermanente": "",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": "=> BASE LEGAL:- Art. 35 § 1º, I, da Lei nº 9492/97"
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-4-6",
+    "assunto": "DOCUMENTOS QUE INSTRUÍRAM A AVERBAÇÃO NO REGISTRO",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "1 ano",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "X",
+      "guardapermanente": "",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": "=> BASE LEGAL:- Analogia no art. 35 § 1º, I, da Lei nº 9492/97"
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-5",
+    "assunto": "OFÍCIO DE NOTAS",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "",
+      "faseintermediaria": ""
+    },
+    "destinacaofinal": {
+      "eliminacao": "",
+      "guardapermanente": "",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": ""
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-5-1",
+    "assunto": "LIVROS",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "",
+      "faseintermediaria": ""
+    },
+    "destinacaofinal": {
+      "eliminacao": "",
+      "guardapermanente": "",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": ""
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-5-1-1",
+    "assunto": "Protocolo de livros",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "Permanente",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "",
+      "guardapermanente": "X",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": ""
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-5-1-2",
+    "assunto": "Testamentos públicos",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "Permanente",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "",
+      "guardapermanente": "X",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": ""
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-5-1-3",
+    "assunto": "Aprovação de testamentos cerrados",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "Permanente",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "",
+      "guardapermanente": "X",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": ""
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-5-1-4",
+    "assunto": "Escritura / misto",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "Permanente",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "",
+      "guardapermanente": "X",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": ""
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-5-1-5",
+    "assunto": "Procurações e substabelecimentos / misto",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "Permanente",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "",
+      "guardapermanente": "X",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": ""
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-5-1-6",
+    "assunto": "Depósito de firmas",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "Permanente",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "",
+      "guardapermanente": "X",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": ""
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-5-1-7",
+    "assunto": "Reconhecimento de firmas por autenticidade",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "Permanente",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "",
+      "guardapermanente": "X",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": ""
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-5-1-8",
+    "assunto": "Índice de testamentos e notas",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "Permanente",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "",
+      "guardapermanente": "X",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": ""
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-5-1-9",
+    "assunto": "Outros livros (auxiliares)",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "Permanente",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "",
+      "guardapermanente": "X",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": ""
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-5-2",
+    "assunto": "FICHAS DE DEPÓSITO DE FIRMAS",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "Permanente",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "",
+      "guardapermanente": "X",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": ""
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-5-3",
+    "assunto": "CERTIDÕES DOS DISTRIBUIDORES, INTERDIÇÕES E TUTELAS",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "10 anos",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "X",
+      "guardapermanente": "",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": "=> BASE LEGAL:- Art. 205 do Código Civil."
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-5-4",
+    "assunto": "CONTROLE DE DISTRIBUIÇÃO DE ESCRITURAS (NOTAS DE DISTRIBUIÇÃO)",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "10 anos",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "X",
+      "guardapermanente": "",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": "=> BASE LEGAL:- Art. 205 do Código Civil."
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-5-5",
+    "assunto": "OUTROS DOCUMENTOS DE ESCRITURA / PROCURAÇÃO",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "10 anos",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "X",
+      "guardapermanente": "",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": "=> BASE LEGAL:- Art. 205 do Código Civil."
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-5-6",
+    "assunto": "COMPROVANTE DE EMISSÃO DE DECLARAÇÃO DE OPERAÇÃO IMOBILIÁRIA (DOI)",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "5 anos",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "X",
+      "guardapermanente": "",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": ""
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-6",
+    "assunto": "OFÍCIO DE NOTAS E REGISTROS DE CONTRATOS MARÍTIMOS",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "",
+      "faseintermediaria": ""
+    },
+    "destinacaofinal": {
+      "eliminacao": "",
+      "guardapermanente": "",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": ""
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-6-1",
+    "assunto": "LIVROS",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "",
+      "faseintermediaria": ""
+    },
+    "destinacaofinal": {
+      "eliminacao": "",
+      "guardapermanente": "",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": "=> Fazem parte desse grupo os livros da subclasse 3-5 - Ofício de Notas."
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-6-1-1",
+    "assunto": "Protocolo",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "Permanente",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "",
+      "guardapermanente": "X",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": ""
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-6-1-2",
+    "assunto": "Registro de contratos",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "Permanente",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "",
+      "guardapermanente": "X",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": ""
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-6-1-3",
+    "assunto": "Procuração",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "Permanente",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "",
+      "guardapermanente": "X",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": ""
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-6-1-4",
+    "assunto": "Escritura",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "Permanente",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "",
+      "guardapermanente": "X",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": ""
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-6-1-5",
+    "assunto": "Abertura de firma",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "Permanente",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "",
+      "guardapermanente": "X",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": ""
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-6-1-6",
+    "assunto": "Reconhecimento de firmas por autenticidade",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "Permanente",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "",
+      "guardapermanente": "X",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": ""
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-6-2",
+    "assunto": "AVISO DE INDISPONIBILIDADE DE BENS",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "20 anos",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "X",
+      "guardapermanente": "",
+      "microfilmagem": "X",
+      "digitalizacao": "X"
+    },
+    "obs": "=> PRAZO DE GUARDA:- A eliminação só é permitida caso a documentação seja microfilmada ou digitalizada."
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-6-3",
+    "assunto": "CONTROLE DE DISTRIBUIÇÃO",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "20 anos",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "X",
+      "guardapermanente": "",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": ""
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-6-4",
+    "assunto": "DEPÓSITO DE FIRMAS (FICHAS)",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "Permanente",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "",
+      "guardapermanente": "X",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": ""
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-6-5",
+    "assunto": "MATRÍCULAS (FICHAS)",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "Permanente",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "",
+      "guardapermanente": "X",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": ""
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-6-6",
+    "assunto": "PUBLICAÇÕES EM JORNAIS (DIÁRIO OFICIAL,...)",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "2 anos",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "X",
+      "guardapermanente": "",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": ""
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-6-7",
+    "assunto": "REGISTROS DIVERSOS (FICHAS)",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "Permanente",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "",
+      "guardapermanente": "X",
+      "microfilmagem": "",
+      "digitalizacao": "X"
+    },
+    "obs": ""
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-6-8",
+    "assunto": "DOCUMENTOS QUE INSTRUÍRAM O REGISTRO",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "15 anos",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "X",
+      "guardapermanente": "",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": "=> BASE LEGAL:- Art. 205 do Código Civil."
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-6-9",
+    "assunto": "DOCUMENTOS QUE INSTRUÍRAM A PROCURAÇÃO, A ESCRITURA",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "5 anos",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "X",
+      "guardapermanente": "",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": ""
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-7",
+    "assunto": "REGISTRO DE TÍTULOS E DOCUMENTOS",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "",
+      "faseintermediaria": ""
+    },
+    "destinacaofinal": {
+      "eliminacao": "",
+      "guardapermanente": "",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": ""
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-7-1",
+    "assunto": "LIVROS REGISTRAIS",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "",
+      "faseintermediaria": ""
+    },
+    "destinacaofinal": {
+      "eliminacao": "",
+      "guardapermanente": "",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": ""
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-7-1-1",
+    "assunto": "Livro A (Protocolo)",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "Permanente",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "",
+      "guardapermanente": "X",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": ""
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-7-1-2",
+    "assunto": "Livro B (Registro integral)",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "Permanente",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "",
+      "guardapermanente": "X",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": ""
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-7-1-3",
+    "assunto": "Livro C (Registro resumido)",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "Permanente",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "",
+      "guardapermanente": "X",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": ""
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-7-1-4",
+    "assunto": "Livro D (Indicador pessoal)",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "Permanente",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "",
+      "guardapermanente": "X",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": ""
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-7-2",
+    "assunto": "AVISO DE INDISPONIBILIDADE DE BENS",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "20 anos",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "X",
+      "guardapermanente": "",
+      "microfilmagem": "X",
+      "digitalizacao": ""
+    },
+    "obs": ""
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-7-3",
+    "assunto": "BOLETINS DOS ATOS EXTRAJUDICIAIS",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "5 anos",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "",
+      "guardapermanente": "X",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": ""
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-7-4",
+    "assunto": "COMPROVANTES DE EMISSÃO DE DECLARAÇÃO DE OPERAÇÃO IMOBILIÁRIA (DOI)",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "5 anos",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "X",
+      "guardapermanente": "",
+      "microfilmagem": "X",
+      "digitalizacao": ""
+    },
+    "obs": ""
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-7-5",
+    "assunto": "CONTROLE DE DISTRIBUIÇÃO(NOTAS DE DISTRIBUIÇÃO)",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "10 anos",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "X",
+      "guardapermanente": "",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": "=> BASE LEGAL:- Art. 205 do Código Civil."
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-7-6",
+    "assunto": "PUBLICAÇÕES EM JORNAIS (DIÁRIO OFICIAL,...)",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "2 anos",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "X",
+      "guardapermanente": "",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": ""
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-7-7",
+    "assunto": "REQUERIMENTOS DE CANCELAMENTOS DE REGISTROS E DOCUMENTOS",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "10 anos",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "X",
+      "guardapermanente": "",
+      "microfilmagem": "X",
+      "digitalizacao": "X"
+    },
+    "obs": "=> PRAZO DE GUARDA:- A eliminação só é permitida caso a documentação seja microfilmada ou digitalizada. ' BASE LEGAL: - Art. 205 do Código Civil"
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-7-8",
+    "assunto": "DOCUMENTOS QUE INSTRUÍRAM O REGISTRO",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "10 anos",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "X",
+      "guardapermanente": "",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": "=> BASE LEGAL:- Art. 205 do Código Civil."
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-8",
+    "assunto": "REGISTRO CIVIL DE PESSOAS JURÍDICAS",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "",
+      "faseintermediaria": ""
+    },
+    "destinacaofinal": {
+      "eliminacao": "",
+      "guardapermanente": "",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": ""
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-8-1",
+    "assunto": "LIVROS",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "",
+      "faseintermediaria": ""
+    },
+    "destinacaofinal": {
+      "eliminacao": "",
+      "guardapermanente": "",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": ""
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-8-1-1",
+    "assunto": "Protocolo",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "Permanente",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "",
+      "guardapermanente": "X",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": "=> BASE LEGAL:- Art. 1º da Lei nº 6015/73."
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-8-1-2",
+    "assunto": "Livro A (registros de contratos, estatutos etc.) e B (oficinas, impressoras, jornais e periódicos)",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "Permanente",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "",
+      "guardapermanente": "X",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": "=> BASE LEGAL:- Art. 1º da Lei nº 6015/73."
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-8-2",
+    "assunto": "CERTIDÕES RECEBIDAS PARA REGISTROS E AVERBAÇÕES",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "10 anos",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "X",
+      "guardapermanente": "",
+      "microfilmagem": "X",
+      "digitalizacao": "X"
+    },
+    "obs": "=> PRAZO DE GUARDA:- A eliminação só é permitida caso a documentação seja microfilmada ou digitalizada."
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-8-3",
+    "assunto": "CÓPIA DE DOCUMENTOS PESSOAIS DOS SÓCIOS / PRESIDENTE",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "10 anos",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "X",
+      "guardapermanente": "",
+      "microfilmagem": "X",
+      "digitalizacao": "X"
+    },
+    "obs": "=> PRAZO DE GUARDA:- A eliminação só é permitida caso a documentação seja microfilmada ou digitalizada."
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-8-4",
+    "assunto": "EXEMPLARES DE CONTRATOS SOCIAIS, ATOS, ESTATUTOS (REGISTRADOS)",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "Permanente",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "",
+      "guardapermanente": "X",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": ""
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-8-5",
+    "assunto": "PUBLICAÇÕES EM JORNAIS (DIÁRIO OFICIAL,...)",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "1 ano",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "X",
+      "guardapermanente": "",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": ""
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-8-6",
+    "assunto": "REQUERIMENTOS DE REGISTRO",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "1 ano",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "X",
+      "guardapermanente": "",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": ""
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-9",
+    "assunto": "DOCUMENTOS COMUNS",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "",
+      "faseintermediaria": ""
+    },
+    "destinacaofinal": {
+      "eliminacao": "",
+      "guardapermanente": "",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": ""
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-9-1",
+    "assunto": "LIVROS",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "",
+      "faseintermediaria": ""
+    },
+    "destinacaofinal": {
+      "eliminacao": "",
+      "guardapermanente": "",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": ""
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-9-1-1",
+    "assunto": "Adicional",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "10 anos",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "X",
+      "guardapermanente": "",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": ""
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-9-1-2",
+    "assunto": "Controle de selos",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "10 anos",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "X",
+      "guardapermanente": "",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": ""
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-9-2",
+    "assunto": "CERTIDÃO NÃO PROCURADA PELAS PARTES / CÓPIA DE CERTIDÃO (DOCUMENTOS COMUNS)",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "3 meses",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "X",
+      "guardapermanente": "",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": ""
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-9-3",
+    "assunto": "GUIA DE RECOLHIMENTO DE RECEITA JUDICIÁRIA",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "10 anos",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "X",
+      "guardapermanente": "",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": ""
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-9-4",
+    "assunto": "OFÍCIOS / REQUERIMENTOS",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "5 anos",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "X",
+      "guardapermanente": "",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": ""
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-9-5",
+    "assunto": "RELATÓRIOS DE CORREIÇÃO",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "5 anos",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "X",
+      "guardapermanente": "",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": ""
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-9-6",
+    "assunto": "RECIBO",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "5 anos",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "X",
+      "guardapermanente": "",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": ""
+  },
+  {
+    "sigadocoucnj": "N/A",
+    "codigo": "3-9-7",
+    "assunto": "BOLETINS DOS ATOS EXTRAJUDICIAIS",
+    "documento": "",
+    "prazodeguarda": {
+      "fasecorrente": "5 anos",
+      "faseintermediaria": "----"
+    },
+    "destinacaofinal": {
+      "eliminacao": "X",
+      "guardapermanente": "",
+      "microfilmagem": "",
+      "digitalizacao": ""
+    },
+    "obs": ""
+  }
+]

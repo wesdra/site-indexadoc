@@ -214,15 +214,21 @@ const Home: NextPage = () => {
           </Link>
           {/*</div>
          <div><img src="/assets/logo-idexaged.svg" className={styles.seta} alt="Indexaget.com.br" /></div> */}
-          <p>
-            DUXGP - SOLUÇÕES EM TI LTDA<br />
+           <p className={`${styles.largeParagraph} ${styles.centerText}`}>
+            DUXGP - SOLUÇÕES EM TI LTDA
+            <br />
             CNPJ: 30.885.472/0001-30 Londrina - PR
           </p>
-          <p>Rua Senador Souza Naves, 771 1º Andar Sala 103<br />
+          <p className={styles.centerText}>
+            Rua Senador Souza Naves, 771 1º Andar Sala 103
+            <br />
             Londrina, Paraná, 86010-160, BR
           </p>
 
-          <p>Email: vedove@duxgp.com.br Telefone:+55 43 99125 5063</p>
+          <p className={styles.centerText}>
+            Email: vedove@duxgp.com.br Telefone:+55 43 99125 5063
+          </p>
+ 
 
         </div>
 
