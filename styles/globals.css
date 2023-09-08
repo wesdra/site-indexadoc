@@ -31,12 +31,38 @@ button {
 }
 
 video {
-  width: 100% !important;
+  /* width: 100% !important; */
   min-width: 300px;
 
-  height: auto !important;
-  max-height: 500px !important;
+  /* height: auto !important;
+  max-height: 500px !important; */
+  height: 90% !important;
+  border-radius: 10px;
 }
+
+.DivVideoCardContainer {
+  position: relative;
+  box-sizing: border-box;
+  background-size: cover;
+  cursor: pointer;
+  margin-right: 20px;
+  height: 600px;
+}
+
+@media screen and (max-width: 1919px) {
+  video {
+    height: calc(450px + ((100vw - 768px) / 1152) * 200);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  video {
+    height: calc(380px + ((100vw - 480px) / 288) * 20);
+  }
+}
+
+
+
 
 ol,
 ul,

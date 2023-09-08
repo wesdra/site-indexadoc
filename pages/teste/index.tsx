@@ -10,8 +10,6 @@ import "keen-slider/keen-slider.min.css";
 import { api, apibase } from "../../services/api";
 import { Controller, useForm } from "react-hook-form";
 import InputMask from "react-input-mask";
-import Modal2 from "../../components/modal2";
-import Head from 'next/head'
 
 const animation = { duration: 8000, easing: (t: number) => t };
 
@@ -103,19 +101,18 @@ const Home: NextPage = () => {
   }
 
   return (
-    <>
-      <Head>
-      <title>Faça o gerenciamento de documentos de seu cartório | indexa.doc</title>
-      <meta name="description" content="Faça o gerenciamento de documentos de seu cartório, de forma eficiente, segura, rápida e com facilidade de acesso." />
-      <meta property="og:locale" content="pt_BR" />
-      <meta property="og:type" content="article" />
-      <meta property="og:title" content="Convidamos você, seja Oficial Titular ou Substituto Legal, para um Café da Tarde Exclusivo." />
-      <meta property="og:description" content="Faça o gerenciamento de documentos de seu cartório, de forma eficiente, segura, rápida e com facilidade de acesso." />
-      <meta property="og:url" content="https://www.indexadoc.com.br" />
-      <meta property="og:site_name" content="indexa.doc | Gestão eficiente, segura e rápida." />
-      <meta property="article:modified_time" content="2023-03-08T13:28:49+00:00" />
-      <meta property="og:image" content="https://www.indexadoc.com.br/eventos/img/kamila-convite.jpg" />
-    </Head>
+    //   <Head>
+    //   <title>Faça o gerenciamento de documentos de seu cartório | indexa.doc</title>
+    //   <meta name="description" content="indexa.doc - Faça o gerenciamento de documentos de seu cartório, de forma eficiente, segura, rápida e com facilidade de acesso." />
+    //   <meta property="og:locale" content="pt_BR" />
+    //   <meta property="og:type" content="article" />
+    //   <meta property="og:title" content="Faça o gerenciamento de documentos de seu cartório | indexa.doc" />
+    //   <meta property="og:description" content="Faça o gerenciamento de documentos de seu cartório, de forma eficiente, segura, rápida e com facilidade de acesso." />
+    //   <meta property="og:url" content="https://www.indexadoc.com.br" />
+    //   <meta property="og:site_name" content="indexa.doc | Gestão eficiente, segura e rápida." />
+    //   <meta property="article:modified_time" content="2023-03-08T13:28:49+00:00" />
+    //   <meta property="og:image" content="https://www.indexadoc.com.br/telas/tela800.jpg" />
+    // </Head>
 
     <div className={styles.container}>
       <div className={styles.bg}></div>
@@ -181,16 +178,7 @@ const Home: NextPage = () => {
                 </p>
               </div>
               <div className={styles.phoneImagesWrap}>
-              <Modal2 />
                 <img
-                  src="/eventos/img/kamila-convite.jpg"
-                  loading="eager"
-                  sizes="(max-width: 479px) 100vw, (max-width: 991px) 21vw, 20vw"
-                  alt=""
-                  className="_100-width-2 cta-image-1"
-                  style={{ borderRadius: 12 }}
-                />
-                {/* <img
                   src="/eventos/img/event.jpg"
                   loading="eager"
                   sizes="(max-width: 479px) 100vw, (max-width: 991px) 21vw, 20vw"
@@ -201,7 +189,7 @@ const Home: NextPage = () => {
                   alt=""
                   className="_100-width-2 cta-image-1"
                   style={{ borderRadius: 12 }}
-                /> */}
+                />
                 {myemail && !result && (
                   <>
                     <span className="invalid-feedback">
@@ -708,7 +696,6 @@ const Home: NextPage = () => {
         )}
       </main>
     </div>
-    </>
   );
 };
 export default Home;

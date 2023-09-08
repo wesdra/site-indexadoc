@@ -21,6 +21,13 @@ function usePlayState($videoRef: any, control: boolean) {
 
 	}, [playState.playing, $videoRef])
 
+	  // Adicione este efeito colateral para iniciar a reprodução do vídeo automaticamente
+	  useEffect(() => {
+		$videoRef.current.play();
+		handleTogglePlay();
+	
+	  }, [$videoRef]);
+
 	function handleTogglePlay() {
 		setPlayState({
 			...playState,
@@ -37,9 +44,12 @@ interface VideoProps {
 }
 
 const Video = (props: VideoProps) => {
+	const [videoEnded, setVideoEnded] = useState(false);
 	const $videoRef = useRef(null);
 	const { playState, handleTogglePlay } = usePlayState($videoRef, props.control)
-
+	const handleVideoEnd = () => {
+		setVideoEnded(true);
+	  };
 	return (
 		<>
 			<div className={styles.video}>
@@ -54,9 +64,12 @@ const Video = (props: VideoProps) => {
           Pause
         </button> */}
 			</div>
-			<video poster="/video-capa.png" width="380" ref={$videoRef}>
-				<source src="https://drive.google.com/uc?export=download&id=1CsVa9LM9xa5NfjztmLOKcSJQ5B8xliqc" />
+			<video poster="/video-capa.png" onEnded={handleVideoEnd} width="380" ref={$videoRef}>
+				{/* <source src="https://drive.google.com/uc?export=download&id=1CsVa9LM9xa5NfjztmLOKcSJQ5B8xliqc" /> */}
+				<source src="https://mkt.indexadoc.com.br/content/videos/0309.mp4" />
+				
 			</video>
+			{/* {videoEnded && <button>Seu botão aqui</button>} */}
 		</>
 	)
 }

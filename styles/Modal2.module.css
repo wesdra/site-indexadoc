@@ -13,14 +13,14 @@
 	z-index: 20;
 
 } */
-.overlay{
+.overlay {
 
   position: fixed;
   left: 0;
   top: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.5);
   display: block;
   transition: all 0.3s ease-in-out;
   pointer-events: none;
@@ -31,19 +31,19 @@
 }
 
 .modal {
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1060;
-    display: block;
-    width: 100%;
-    height: 100%;
-    overflow-x: hidden;
-    overflow-y: auto;
-    outline: 0;
-    display: block;
-    background: rgba(0, 0, 0, 0.8);
-    cursor: pointer;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1060;
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  outline: 0;
+  display: block;
+  background: rgba(0, 0, 0, 0.8);
+  cursor: pointer;
 }
 
 /* .modal {
@@ -56,13 +56,13 @@
 } */
 
 .modalMain {
-   position:fixed;
-   width:auto;
-   height: auto;
-   top:50%;
-   left:50%;
+  position: fixed;
+  width: auto;
+  height: auto;
+  top: 50%;
+  left: 50%;
   z-index: 1062;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
 }
 
 .display-block {
@@ -84,6 +84,7 @@
   background-color: transparent;
   border: none;
 }
+
 .closeBtn svg {
   pointer-events: none;
   stroke: #fff;
@@ -93,20 +94,25 @@
   fill: none;
   color: #fff;
 }
+
 .btnControlModal {
   background: transparent;
   border: none;
-  position:absolute;
-  width:auto;
+  position: absolute;
+  width: auto;
   height: auto;
-  top:50%;
-  left:50%;
+  /* top:50%; */
+  top: 250px;
+  left: 50%;
   z-index: 1000;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
 
 }
+
 .btnControlModal:hover {
   border: solid 2px blueviolet;
   border-radius: 100%;
   background: #fff;
 }
+
+
