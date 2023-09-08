@@ -351,6 +351,82 @@ const Home: NextPage = () => {
           </div>
         </div>
 
+
+
+
+        <div className={styles.section}>
+          <div className={styles.sectionBase}>
+            <div className={styles.sectionTop}>
+
+              <p className={styles.topTitle}>O que nossos clientes falam</p>
+              <h2 className={`${styles.h2Title} ${styles.centerText}`}>Depoimento</h2>
+              <p className={styles.textParagraph}>
+
+                {/* A premiação nacional do Prêmio de Qualidade Total de 2022, <br />
+              promovido pela Associação dos Notários e Registradores do Brasil, <br />
+              foi realizado no dia no dia 6 de dezembro na Capital Federal. <br /> */}
+
+
+              </p>
+            </div>
+
+            <div className={styles.testimonial}>
+              <div className={styles.testimonialTesti}>
+                <div className={styles.testimonialContent}>
+                  <i className={styles.testimonialMdi}></i>
+                  <p className={styles.testimonialText}>{`"O indexa.doc supriu uma necessidade da serventia quanto ao armazenamento e gestão dos documentos, em face do desafio de se alcançar a segurança jurídica com a guarda de documentos digitais. Foi uma conquista, especialmente em razão de que o sistema foi desenvolvido com tecnologia de ponta e de forma muita específica para a área registral imobiliária. A parceria entre a DUXGP Soluções em TI e o 2º RI de Londrina será um diferencial para a inserção e consolidação do cartório na era digital. Foi pavimentado um futuro promissor para a modernidade". `}</p>
+                  <ul className={styles.testimonialListNone}>
+                    <li className={styles.testimonialInline}><i className={styles.testimonialStar}></i></li>
+                    <li className={styles.testimonialInline}><i className={styles.testimonialStar}></i></li>
+                    <li className={styles.testimonialInline}><i className={styles.testimonialStar}></i></li>
+                    <li className={styles.testimonialInline}><i className={styles.testimonialStar}></i></li>
+                    <li className={styles.testimonialInline}><i className={styles.testimonialStar}></i></li>
+                  </ul>
+                </div>
+
+                <div className={styles.testimonialUser}>
+                  <img src="dra.png" className={styles.avatarFull} alt="DRA. ANA LÚCIA A. S. SILVEIRA" />
+                  <h6 className={styles.testimonialTextSemibold}>DRA. ANA LÚCIA A. S. SILVEIRA</h6>
+                  <span className={styles.testimonialTextOffice}>Oficial Substituta Legal <br />2º Serviço de Registro de Imóveis de Londrina</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+
+
+        <div className={styles.section}>
+          <div className={styles.sectionTop}>
+            <p className={styles.topTitle}>Prêmio Inovação Tecnológica</p>
+            <h2 className={`${styles.h2Title} ${styles.centerText}`}>Reconhecimento</h2>
+            <p className={styles.textParagraph}>
+
+              A premiação nacional do Prêmio de Qualidade Total de 2022,
+              promovido pela Associação dos Notários e Registradores do Brasil,
+              foi realizado no dia no dia 6 de dezembro na Capital Federal.
+
+
+            </p>
+          </div>
+          <div className={styles.imageWrap}>
+            <img src="/telas/tela5625.jpg"
+              sizes="(max-width: 479px) 100vw, (max-width: 767px) 92vw, (max-width: 991px) 93vw, 90vw"
+              srcSet="
+          /telas/tela2-500.jpg 500w, 
+          /telas/tela2-800.jpg 800w, 
+          /telas/tela2-1080.jpg 1080w, 
+          /telas/tela2-1600.jpg 1600w, 
+          /telas/tela2-2000.jpg 2000w, 
+          /telas/tela2-2600.jpg 2600w, 
+          /telas/tela2-3200.jpg 3200w"
+              alt="Indexadoc - o aplicativo que vai revolucionar a forma como seu cartório trabalha hoje."
+              className={styles.fullSize} />
+          </div>
+        </div>
+
+
         <div className={styles.section}>
           <div className={`${styles.sectionBase} ${styles.sectionBaseFnd}`}>
             <div className={styles.sectionTop}>
