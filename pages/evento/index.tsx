@@ -181,7 +181,9 @@ const Home: NextPage = () => {
                 </p>
               </div>
               <div className={styles.phoneImagesWrap}>
-              <Modal2 />
+              
+              <div className={styles.Basefoto}>
+              <Modal2  />
                 <img
                   src="/eventos/img/kamila-convite.jpg"
                   loading="eager"
@@ -190,6 +192,7 @@ const Home: NextPage = () => {
                   className="_100-width-2 cta-image-1"
                   style={{ borderRadius: 12 }}
                 />
+                </div>
                 {/* <img
                   src="/eventos/img/event.jpg"
                   loading="eager"

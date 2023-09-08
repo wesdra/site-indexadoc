@@ -55,6 +55,8 @@
   background: rgba(0, 0, 0, 0.6);
 } */
 
+
+
 .modalMain {
   position: fixed;
   width: auto;
@@ -101,8 +103,8 @@
   position: absolute;
   width: auto;
   height: auto;
-  /* top:50%; */
-  top: 250px;
+  top:50%; 
+  
   left: 50%;
   z-index: 1000;
   transform: translate(-50%, -50%);
