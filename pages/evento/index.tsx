@@ -97,6 +97,8 @@ const Home: NextPage = () => {
     }
   }, [useCookes, useStorageCookes]);
 
+
+
   function handleUseCoories() {
     setUseStorageCookies({ use: "ok" });
     setUseCookes({ use: "ok" });
@@ -129,14 +131,13 @@ const Home: NextPage = () => {
       <main className={styles.main}>
         <div className={styles.textwrap}>
           <h1 className={styles.title}>
-            Confirme sua <span className={styles.textspan1}>Presença</span>
-            <br />e <span className={styles.textspan2}>Revolucione</span>sua
-            Gestão Documental!
+          Sua jornada para uma gestão<br /><span className={styles.textspan1}> documental </span>
+            <span className={styles.textspan2}>transformada</span><br /> começa aqui!
           </h1>
-          <p className={styles.textdescpreto}>
+          {/* <p className={styles.textdescpreto}>
             Sua jornada para uma gestão documental transformada começa aqui.
             <br /> Não deixe essa oportunidade passar!
-          </p>
+          </p> */}
           <p className={styles.textdesc}>
             Preencha o formulário para confirmação de participação.
           </p>
@@ -183,9 +184,11 @@ const Home: NextPage = () => {
               <div className={styles.phoneImagesWrap}>
               
               <div className={styles.Basefoto}>
-              <Modal2  />
+              {/* <Modal2  /> */}
                 <img
-                  src="/eventos/img/kamila-convite.jpg"
+                 // src="/eventos/img/kamila-convite.jpg"
+                  src="/eventos/img/fernando-evento1.png"
+                  
                   loading="eager"
                   sizes="(max-width: 479px) 100vw, (max-width: 991px) 21vw, 20vw"
                   alt=""
@@ -230,7 +233,14 @@ const Home: NextPage = () => {
                     </Link>
                   </>
                 )}
-                {result  ? (
+
+                <div>
+                    {/* <h2 className="Parabens">Inscrições encerradas!</h2> */}
+                    <p className="ParabensParagrafo">
+                    Comunicamos que as inscrições já estão encerradas.
+                    </p>
+                  </div>
+                {/* {result  ? (
                   <div>
                     <h2 className="Parabens">Parabens!</h2>
                     <p className="ParabensParagrafo">
@@ -239,11 +249,11 @@ const Home: NextPage = () => {
                     <p className={styles.centerText}>Verifique seu e-mail {myemail}.</p>
                   </div>
                 ) : (
-           
-               
+
                 <>
+        
                   <p className={`${styles.textdesc} ${styles.marginTop}`}>Formulário de Confirmação</p>
-                  {/* <p>{output}</p> */}
+                  <p>{output}</p> 
                   <form
                     className="row g-3"
                     action=""
@@ -289,12 +299,7 @@ const Home: NextPage = () => {
                       )}
                     </div>
                     <div className="col-12">
-                      {/* <input
-                        type="text"
-                        {...register("celular")}
-                        className="form-control inputField2"
-                        placeholder="Telefone Celular"
-                      /> */}
+              
 
                       <Controller
                         name="celular"
@@ -344,8 +349,9 @@ const Home: NextPage = () => {
                       </button>
                     </div>
                   </form>
-                </>
-                 )}
+                  </>
+                 )} */}
+           
               </div>
             </div>
           </div>
