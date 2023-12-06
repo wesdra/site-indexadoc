@@ -330,13 +330,13 @@ const Home: NextPage = () => {
                     <div className="col-12">
                       <input
                         type="text"
-                        {...register("cidade")}
+                        {...register("oficial")}
                         className="form-control inputField2"
                         placeholder="Cidade"
                       />
-                      {errors.cidade && (
+                      {errors.oficial && (
                         <span className="invalid-feedback">
-                          {errors.cidade.message}
+                          {errors.oficial.message}
                         </span>
                       )}
                     </div>
