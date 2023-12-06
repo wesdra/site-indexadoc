@@ -24,6 +24,7 @@ const phoneRegex = /^\(?\d{2}\)?[\s-]?9?\d{4}-?\d{4}$/;
 
 const createUserFromSchema = z.object({
   nome: z.string().nonempty("O Nome é obrigatório"),
+  email: z.string().email("Formato de e-mail inválido").toLowerCase(),
   oficial: z.string().nonempty("O Nome do Oficial ou Substituto é obrigatório"),
   celular: z
     .string()
@@ -31,8 +32,7 @@ const createUserFromSchema = z.object({
     .refine((phone) => phoneRegex.test(phone), {
       message: "Número de telefone inválido",
     }),
-  cidade: z.string().nonempty("A Cidade é obrigatório"),
-  email: z.string().email("Formato de e-mail inválido").toLowerCase(),
+ 
 });
 
 type CreteformData = z.infer<typeof createUserFromSchema>;
@@ -45,7 +45,7 @@ const Home: NextPage = () => {
   const [useCookes, setUseCookes] = useState<useCookes>(useStorageCookes);
 
   const [myemail, setMyemail] = useState("");
-  //const [output, setOutput] = useState("");
+  const [output, setOutput] = useState("");
   const [result, setResult] = useState<boolean>(false);
 
   const {
@@ -68,7 +68,7 @@ const Home: NextPage = () => {
       }
     } catch (error) {}
 
-    //setOutput(JSON.stringify(data, null, 2));
+    setOutput(JSON.stringify(data, null, 2));
 
     //const cadastrar = api.post<CreteformData>(data);
   }
@@ -240,7 +240,7 @@ const Home: NextPage = () => {
                     Comunicamos que as inscrições já estão encerradas.
                     </p>
                   </div>
-                {/* {result  ? (
+                {result  ? (
                   <div>
                     <h2 className="Parabens">Parabens!</h2>
                     <p className="ParabensParagrafo">
@@ -350,7 +350,7 @@ const Home: NextPage = () => {
                     </div>
                   </form>
                   </>
-                 )} */}
+                 )}
            
               </div>
             </div>
